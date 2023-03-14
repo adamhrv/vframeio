@@ -48,7 +48,13 @@
 
   <div class="flex-even markdown-inner">
     <figure>
-      <img src='{{ .Get "src3" }}' alt='{{ .Get "caption3" }}' width='100%' loading="lazy" />
+      {{ if .Get "url3"}}
+      <a href='{{ .Get "url3" }}'>
+      {{ end }}
+      <img src='{{ .Get "src3" }}' alt='{{ .Get "caption3" }}' width='100%' loading="lazy"  />
+      {{ if .Get "url3"}}
+      </a>
+      {{ end }}
       <figcaption>
         <p>
           {{ if .Get "url3"}}
