@@ -1,0 +1,6 @@
+# Custom
+deploy.sh
+public/
+resources/
+.hugo_build.lock
+*_local_*
