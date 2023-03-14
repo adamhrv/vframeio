@@ -55,7 +55,7 @@ Thanks to Matteo Pasquinelli, Grit Werner, Marco Kempf and the Product Design de
 
 ## FormLabs
 
-![3D print at FormLabs in Berlin using the new Form 3](images/formlabs/vframe_formlabs_01.jpg)
+![3D print at FormLabs in Berlin using the new Form 3](images/formlabs/vframe_formlabs_01.jpg#watermark)
 
 [FormLabs](https://formlabs.com) created 3D printed replicas of cluster munitions for [3D-printed data research](/3d-printed-training-data). These high quality prints provide tactile understanding of each model, and allow us to enrich our datasets by incorporating photographed real-world imagery into our [synthetic datasets](/research/synthetic-datasets/).
   

@@ -59,7 +59,7 @@ Stay tuned for more updates during 2022 including the release of a new 9N235 det
 For inquires about using VFRAME technologies please contact research at vframe.io
 
 
-### [Press Archive](/about/press)
+### Press Archive
 
 - **Financial Times**: [Researchers train AI on ‘synthetic data’ to uncover Syrian war crimes](https://www.ft.com/content/8399873e-0dda-4c87-ba59-0e2678166fba)
 - **Der Spiegel**: [How Artificial Intelligence Helps Solve War Crimes](https://www.spiegel.de/politik/ausland/wie-kuenstliche-intelligenz-bei-der-aufklaerung-von-kriegsverbrechen-hilft-a-670d8c14-0b8b-42bc-a5b0-e74250cff225)
@@ -69,7 +69,7 @@ For inquires about using VFRAME technologies please contact research at vframe.i
 
 
 
-### [Funding](/about/funding)
+### Funding
 
 Research and development of VFRAME is or has been supported by the [ProtypeFund](https://prototypefund.de) (DE), [Swedish International Development Agency](https://www.sida.se) (SIDA), [Meedan](https://meedan.com), and [NL Net](https://nlnet.nl/). 
 
