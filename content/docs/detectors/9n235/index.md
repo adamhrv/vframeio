@@ -39,7 +39,7 @@ The current version (1C) performs best on human-height videos or images created 
 
 VFRAME is a computer vision project that develops open-source technology for human rights research, investigative journalists, and conflict zone monitoring. After several years of research and development into synthetic data fabrication techniques using [3D-rendering](/3d-rendered-data) and [3D-printed](/3d-printed-data) data, this is the first publication of an object detection algorithm that uses all combined methods, as well as sufficient benchmark data to confirm the results. 
 
-Many thanks to the [organizations](/funding) that have supported this project during the last several years and to VFRAME's latest partner [Tech 4 Tracing](/collaborations/#t4t) for facilitating access to the FFE munitions, as well as Fenix Insight for additional support and coordination on benchmark data development, SIDA/Meedan for continued operation support, and PrototypeFund for initial research support into synthetic data. 
+Many thanks to the [organizations](/funding) that have supported this project during the last several years and to VFRAME's latest partner Tech 4 Tracing for facilitating access to the FFE munitions, as well as Fenix Insight for additional support and coordination on benchmark data development, SIDA/Meedan for continued operation support, and PrototypeFund for initial research support into synthetic data. 
 
 ## 9N235 Submunition
 
@@ -74,9 +74,6 @@ Though there is a problem. There is a limited number of photos with the 9N235/9N
 VFRAME is taking a new approach to building neural networks using art-driven, data-centric development. Instead of scraping biased images online or setting up sterile laboratory experiments, data is generated from the ground-truth up using an interdisciplinary combination of photography, photogrammetry, 3D-rendering, 3D-printing, custom software, and artistic forgery. This post outlines the steps taken to build a high-performance 9N235/9N210 detector with almost no data from online sources, except for use in the final benchmarking dataset to evaluate the algorithm's performance.
 
 The first step will bypass the internet as a source of data and instead find access to the real submunition as the ground-truth source of data as a 3D model using photogrammetry.
-
-<small><i class="fa fa-hammer" aria-hidden="true"></i> This post is a work in progress and is currently being revised for publication in a research report.</small>
-
 
 ## Photogrammetry
 
