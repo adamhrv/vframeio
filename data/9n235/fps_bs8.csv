@@ -1,0 +1,5 @@
+model,fps,iterations,image_width,image_height,dnn_width,dnn_height,user_width,user_height,processor,opencv_version,python_version,batch_size
+9n235-l6,43.13,100,640,480,1280,1280,1280,1280,gpu,4.7.0,3.8.10,8
+9n235-m6,72.09,100,640,480,1280,1280,1280,1280,gpu,4.7.0,3.8.10,8
+9n235-s6,127.48,100,640,480,1280,1280,1280,1280,gpu,4.7.0,3.8.10,8
+9n235-n6,187.63,100,640,480,1280,1280,1280,1280,gpu,4.7.0,3.8.10,8

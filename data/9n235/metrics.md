@@ -1,0 +1,6 @@
+| version   |       f1 |   precision |   recall |    map50 |      map |   img_size | FPS | Model | Labels |
+|:---|-----:|------:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|
+| L6.v1c | 0.9818 |    0.9885 | 0.9751 | 0.9878 | 0.9262 |       1280 |    43.13 | [vf_9n235_01c_l6.pt](https://files.vframe.io/v2/models/detection/9n235/vf_9n235_01c_l6.pt) | [labels.txt](https://files.vframe.io/v2/models/detection/9n235/labels.txt)|
+| M6.v1c | 0.9392 |    0.9465 | 0.9320 | 0.9720 | 0.8777  |       1280 |    72.09 | [vf_9n235_01c_m6.pt](https://files.vframe.io/v2/models/detection/9n235/vf_9n235_01c_m6.pt) | [labels.txt](https://files.vframe.io/v2/models/detection/9n235/labels.txt)|
+| S6.v1c | 0.9626 |    0.9820 | 0.9439 | 0.9786 | 0.8632 |       1280 |    127.48 | [vf_9n235_01c_s6.pt](https://files.vframe.io/v2/models/detection/9n235/vf_9n235_01c_s6.pt) | [labels.txt](https://files.vframe.io/v2/models/detection/9n235/labels.txt)|
+| N6.v1c | 0.9376 |    0.9523 | 0.9234 | 0.9699 | 0.8387 |       1280 |    187.63 | [vf_9n235_01c_s6.pt](https://files.vframe.io/v2/models/detection/9n235/vf_9n235_01c_n6.pt) | [labels.txt](https://files.vframe.io/v2/models/detection/9n235/labels.txt)|
