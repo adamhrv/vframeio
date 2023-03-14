@@ -14,7 +14,7 @@ Building a 9N235/210 submunition object detector with photography, photogrammetr
 
 <i class="fa fa-hammer" aria-hidden="true"></i> This page is still under development and comprises the preliminary version of a research report to be submitted in the next few months.
 
-![Example detection performance on partially exploded 9N235/9N210 submunition recovered by Ukrainian forces after a Russian attack. Detection made using VFRAME&rsquo;s open-source 9N235/9N210 detector model. Munition accessed in collaboration with Tech 4 Tracing.](images/detections/20230214_vf_9n235_facility_i_015_crop.png#watermark)
+![Example detection performance on partially exploded 9N235/9N210 submunition recovered by Ukrainian forces after a Russian attack. Detection made using VFRAME&rsquo;s open-source 9N235/9N210 detector model. Munition accessed in collaboration with Tech 4 Tracing.](images/detections/20230214_vf_9n235_facility_i_015_crop.jpg#watermark)
 
 This page outlines the development process of building an object detector for the 9N235/210 submunition using photography, photogrammetry, 3D modeling, 3D printing, and convolutional neural networks. For code and models visit [github.com/vframeio/vframe](https://github.com/vframeio/vframe). The model is free to use for commercial purposes if the LICENSE and CREDIT information is included (MIT).
 

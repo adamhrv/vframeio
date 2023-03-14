@@ -69,23 +69,11 @@ For inquires about using VFRAME technologies please contact research at vframe.i
 
 
 
-### [Project Partners](/about/collaborations)
-
-{% include "about_collabs_index.html" %}
-
-
-### [Awards](/about/awards)
-
-{% include "about_awards_index.html" %}
-
-
 ### [Funding](/about/funding)
 
 Research and development of VFRAME is or has been supported by the [ProtypeFund](https://prototypefund.de) (DE), [Swedish International Development Agency](https://www.sida.se) (SIDA), [Meedan](https://meedan.com), and [NL Net](https://nlnet.nl/). 
 
-{% include "about_funding_index.html" %}
-
 
 ### About this site
 
-This site is designed to be privacy-friendly and does not use any 3rd party analytics to track visits, nor any 3rd party dependencies that compromise privacy or share data. The site is built with Markdown, generated in Python, and served as static files.
+This site is designed to be privacy-friendly and does not use any 3rd party analytics to track visits, nor any 3rd party dependencies that compromise privacy or share data. The site is built with Markdown, generated in Hugo, and served as static files.

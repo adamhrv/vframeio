@@ -8,6 +8,9 @@ publishDir: public
 theme: 
   - hugo-book
 
+# Deployment
+HUGO_EXTENDED: 1
+
 # Book configuration
 disablePathToLower: true
 enableGitInfo: false
