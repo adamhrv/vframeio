@@ -214,8 +214,8 @@ The model is trained in multiple architectures for deployment on workstations or
 
 ### Future Reports
 
-- OSINT analysis for 100K size image dataset (April 2023)
-- OSINT analysis for million-scale video dataset (May 2023)
+- OSINT analysis for 100K image dataset (April 2023)
+- OSINT analysis for 1M video dataset (May 2023)
 
 ### Credits
 
