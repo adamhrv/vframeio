@@ -5,7 +5,7 @@ url: /9n235
 date: 2023-03-01
 Tags: ['cluster munition', 'submunition', '9N235', '9N210']
 images:
-- https://vframe.ioimages/vframe_t4t_9n235_photogrammetry.png
+- https://vframe.io/9n235/images/vframe_t4t_9n235_photogrammetry.png
 ---
 
 # 9N235/9N210 Submunition Object Detector
@@ -16,12 +16,11 @@ Building a 9N235/210 submunition object detector with photography, photogrammetr
 
 ![Example detection performance on partially exploded 9N235/9N210 submunition recovered by Ukrainian forces after a Russian attack. Detection made using VFRAME&rsquo;s open-source 9N235/9N210 detector model. Munition accessed in collaboration with Tech 4 Tracing.](images/detections/20230214_vf_9n235_facility_i_015_crop.png#watermark)
 
-This page outlines the development process of building an object detector for the 9N235/210 submunition using photography, photogrammetry, 3D modeling, 3D printing, and convolutional neural networks. For code and models visit [github.com/vframeio/vframe](https://github.com/vframeio/vframe), or try a model-size-limited online demo at [modelzoo.vframe.io](https://modelzoo.vframe.io). The model is free to use for commercial purposes if the LICENSE and CREDIT information is included (MIT).
+This page outlines the development process of building an object detector for the 9N235/210 submunition using photography, photogrammetry, 3D modeling, 3D printing, and convolutional neural networks. For code and models visit [github.com/vframeio/vframe](https://github.com/vframeio/vframe). The model is free to use for commercial purposes if the LICENSE and CREDIT information is included (MIT).
 
 Updates:
 - February 2023: Improved detection models (v0.2) released
 - October 2022:  VFRAME partner Tech 4 Tracking dispatches [policy brief (PDF)](https://tech4tracing.org/wp-content/uploads/2022/08/T4T-PolicyBrief1-Aug2022.pdf) on using new technology for illicit arms control following our joint presentation at United Nations in summer 2022
-- August 2022: Live (beta) demo of the v0.1 9N235/210 beta detector added to https://modelzoo.vframe.io
 
 {{< include "/data/includes/disclaimer.html" >}}
 

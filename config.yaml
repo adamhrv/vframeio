@@ -6,7 +6,7 @@ title: "VFRAME"
 description: "Visual Forensics and Metadata Extraction"
 publishDir: public
 theme: 
-  - book
+  - hugo-book
 
 # Book configuration
 disablePathToLower: true
@@ -29,10 +29,6 @@ languages:
     languageName: English
     contentDir: content
     weight: 1
-
-module:
-  imports:
-    - path: 'book'
 
 
 menu:

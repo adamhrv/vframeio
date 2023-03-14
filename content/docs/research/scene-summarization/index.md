@@ -6,14 +6,14 @@ url: /scene-summarization
 published: 2021-01-23
 updated: 2021-03-12
 images:
-- https://vframe.io/docs/research/scene-summarization/feature.jpg
+- https://vframe.io/scene-summarization/images/feature.jpg
 ---
 
 # Scene Summarization
 
 Accelerate neural network analysis by using simpler, faster algorithms to skip perceptually similar frames in a video
 
-![Example video containing cluster munition via Mnemonic.org](/docs/research/scene-summarization/feature.jpg)
+![Example video containing cluster munition via Mnemonic.org](images/feature.jpg)
 
 Scene summarization, as its name implies, summarizes the scenes of video into its most representative frames, acting as a *content compression* algorithm. But what exactly is a "scene"?
 
@@ -55,14 +55,14 @@ In practice, the algorithm generates a group of images for each video that looks
 
 ### Example 1
 
-![Original video: 5:07 or 9,200 frames. Video via Mnemonic.org](/docs/research/scene-summarization/frame_2.jp)
+![Original video: 5:07 or 9,200 frames. Video via Mnemonic.org](images/frame_2.jp)
 
-![The 12 most representative frames of the video. Video via Mnemonic.org](/docs/research/scene-summarization/frames_2.jpg)
+![The 12 most representative frames of the video. Video via Mnemonic.org](images/frames_2.jpg)
 
 ### Example 2
 
-![Original video: 1:34 or 2,817 frames. Video via Mnemonic.org](/docs/research/scene-summarization/frame_3.jpg)
+![Original video: 1:34 or 2,817 frames. Video via Mnemonic.org](images/frame_3.jpg)
 
-![The 12 most representative frames of the video. Video via Mnemonic.org](/docs/research/scene-summarization/frames_3.jpg)
+![The 12 most representative frames of the video. Video via Mnemonic.org](images/frames_3.jpg)
 
 <small>This research has been supported by funding from PrototypeFund (DE).</small>
