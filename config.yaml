@@ -9,6 +9,7 @@ theme:
   - hugo-book
 
 # Deployment
+HUGO_VERSION: "0.100.1"
 HUGO_EXTENDED: 1
 
 # Book configuration
