@@ -4,7 +4,6 @@
 {{- $cmd := (index $link 1) }}
 {{- $image := (.Page.Resources.ByType "image").GetMatch (printf "*%s*" (index $link 0)) }}
 {{- $logo := (resources.Get "images/logo-vf.png") }}
-
 {{- $height := $image.Height -}}
 {{- $width := $image.Width -}}
 

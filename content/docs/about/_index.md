@@ -13,7 +13,7 @@ VFRAME is developed and maintained by [Adam Harvey](https://ahprojects.com) in B
 VFRAME's image processing software and detection models are open-source with MIT licenses and available at [github.com/vframeio](https:github.com/vframeio). Download object detection models using the Python CLI tools or try a online demo using the [modelzoo.vframe.io](https://modelzoo.vframe.io).
 
 
-{{< two-col-images
+{{< two-col-images-eager
     src1="/docs/about/assets/vframe_republica.jpg"
     src2="/docs/about/assets/un-bms8-2022.jpg"
     caption1="2018: Showing an early prototype of the AO-2.5RT object detector at republica:18 in Berlin with Hadi Al-Khatib from Syrian Archive"
@@ -44,10 +44,10 @@ Stay tuned for more updates during 2022 including the release of a new 9N235 det
 
 ### Team
 
-{{< three-col-images
-    src1="/docs/about/assets/adam-harvey.gif"
-    src2="/docs/about/assets/jules-laplace.gif"
-    src3="/docs/about/assets/josh-evans.gif"
+{{< three-col-images-eager
+    src1="assets/adam-harvey.gif"
+    src2="assets/jules-laplace.gif"
+    src3="assets/josh-evans.gif"
     caption1="<strong>Adam Harvey / Director</strong><br>Computer vision, image processing, 3D rendering, and systems engineering."
     caption2="<strong>Jules LaPlace / Collaborator</strong><br>Information architecture, front-end engineering."
     caption3="<strong>Josh Evans / Collaborator</strong><br>3D design, photogrammetry, emerging 3D technologies."

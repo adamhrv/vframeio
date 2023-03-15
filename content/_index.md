@@ -23,7 +23,7 @@ VFRAME develops and deploys computer vision technologies for analyzing conflict 
 ## Recently
 
 
-{{< two-col-images
+{{< two-col-images-eager
     src1="9n235/images/index.jpg" 
     src2="ao25rt/images/index.jpg" 
     url1="/9n235"
@@ -33,7 +33,7 @@ VFRAME develops and deploys computer vision technologies for analyzing conflict 
 >}}
 
 
-{{< three-col-images
+{{< three-col-images-eager
     src1="media-attributes/images/index.png"
     src2="3d-rendered-data/images/index.jpg"  
     src3="3d-printed-data/images/index.jpg" 
