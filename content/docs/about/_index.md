@@ -76,4 +76,4 @@ Research and development of VFRAME is or has been supported by the [ProtypeFund]
 
 ### About this site
 
-This site is designed to be privacy-friendly and does not use any 3rd party analytics to track visits, nor any 3rd party dependencies that compromise privacy or share data. The site is built with Markdown, generated in Hugo, and served as static files using [Digital Ocean App platform](https://m.do.co/c/a2412b83379b.
+This site is designed to be privacy-friendly and does not use any 3rd party analytics to track visits, nor any 3rd party dependencies that compromise privacy or share data. The site is built with Markdown, generated in Hugo, and served as static files using [Digital Ocean App platform](https://m.do.co/c/a2412b83379b).
