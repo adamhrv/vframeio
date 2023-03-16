@@ -10,7 +10,7 @@ images:
 
 # 3D Rendered Training Data
 
-- <strong>Active research area</strong>. New methods will be published soon using photogrammetry base models.
+Active research area. See the latest results on the [9N235/9N210](/9n235) submunition
 
 ![3D modeled cluster munitions used to generate synthetic training data for object detection algorithms.](images/synthetic_data_cover_02.jpg#watermark)
 

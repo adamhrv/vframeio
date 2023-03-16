@@ -6,7 +6,7 @@ title: "VFRAME"
 description: "Visual Forensics and Metadata Extraction"
 publishDir: public
 theme: 
-  - hugo-book
+  - book
 
 # Book configuration
 disablePathToLower: true
@@ -33,13 +33,7 @@ languages:
 
 menu:
   before: []
-  after:
-    - name: "Github"
-      url: "https://github.com/vframeio"
-      weight: 10
-    - name: "Twitter"
-      url: "https://twitter.com/vframeio"
-      weight: 11
+  after: []
 
 params:
   # (Optional, default light) Sets color theme: light, dark or auto.

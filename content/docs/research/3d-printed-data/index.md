@@ -11,8 +11,7 @@ Summary: 3D printing cluster munition replicas for use in training and benchmark
 
 # 3D Printed Data
 
-- Enriching synthetic data with 3D printed cluster munition replicas for use in image training datasets
-- Posted by Adam Harvey on January 23, 2021. Updated on March 12, 2021.
+Enriching synthetic data with 3D printed cluster munition replicas for use in image training datasets
 
 ![Photo: &copy;Adam Harvey / VFRAME.io 2021.](images/vframe-9n235-replica-3d-printed.jpg#watermark)
 
@@ -43,20 +42,14 @@ Printing
 - Print at 0.2mm layer height for prototype and 0.1mm for final print
 - Post-process with wet sandpaper using 100-200-400-800 for smooth surfaces
 - Avoid using electric sanding with dry sandpapers as it can melt plastic
-- Additionally use primer to fill gaps in layer lines between wet sanding
+- Use primer to fill gaps in layer lines between wet sanding
 - Use brush or spray painting to finalize
-- Combine materials (metal screws, connectors) to add more real textures where possible
+- Combine materials (metal screws, connectors) to add more real material texture where possible
 
 Safety
 - 3D printed replicas are safe and effective alternative to using real munitions in training datasets
 - 3D printed replicas are lightweight and easily transported
-- 3D printed replicas can be disassembled and safely transported to unique locations and then reassembled whereas using "real" replicas poses a risk to travel safety measures
-
-Test/Train/Val
-- Annotated photos of 3D prints are as effective as photos of real objects when high fidelity is achieved and can replace or enrich existing real-object training/val/test dataset imagery
-- Diversify photos by capturing objects with multiple cameras, lenses, lighting conditions, dirt, backgrounds, camera angles
-- Low-quality artifacts of the replica will be encoded into the detection profile
-
+- 3D printed replicas can be disassembled and safely transported to unique locations and then reassembled whereas traveling with "real" replicas can be more challenging
 
 ### Acknowledgments
 
@@ -75,3 +68,7 @@ Thanks to Ars Electronica for including this research at its early stage in thei
 ### Funding
 
 This research received partial support from [SIDA / Meedan grant](/funding/#meedan)
+
+
+Notes:
+- Posted by Adam Harvey on January 23, 2021. Updated on March 12, 2021.
