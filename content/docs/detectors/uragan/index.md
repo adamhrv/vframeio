@@ -7,6 +7,12 @@ date: 2023-03-01
 Tags: ['cluster munition', 'uragan']
 images:
 - https://vframe.io/docs/detectors/uragan/vframe-uragan-01.jpg
+bookToc: False
+bookHidden: true
+bookDraft: True
+draft: True
+bookSearch: False
+sitemap_exclude: True
 ---
 
 # Uragan 220MM 9M27 Rocket Detector
