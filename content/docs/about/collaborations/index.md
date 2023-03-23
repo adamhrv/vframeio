@@ -20,7 +20,7 @@ VFRAME partners with [Tech 4 Tracing](https://tech4tracing.org/) to gain insight
 [Tech 4 Tracing](https://tech4tracing.org/) (T4T) is an international, US-based non-profit working towards building partnerships with human rights investigation communities to enhance and improve their abilities to understand and address illicit arms flows, bring perpetrators of armed violence to justice, and contribute to safer societies.
 
 **Collaboration Updates**
-- *Aug 17, 2022: T4T dispatches [policy brief (PDF)](https://tech4tracing.org/wp-content/uploads/2022/08/T4T-PolicyBrief1-Aug2022.pdf)  on using new technology for illicit arms control*
+- *Aug 17, 2022: T4T dispatches [policy brief (PDF)](https://tech4tracing.org/s/T4T-PolicyBrief1-Aug2022.pdf)  on using new technology for illicit arms control*
 - *July 20, 2022: Live demo of the 9N235/210 detector added to https://modelzoo.vframe.io*
 - *July 15, 2022: New 9N235 detector test videos added (bottom of page)*
 - *June 29, 2022:* VFRAME presents the 9N235/210 submunition at the UN headquarters in NYC along with the 3D printed training replica at BMS8
