@@ -4,6 +4,8 @@ description: Building 9N235/210 submunition object detector
 url: /9n235
 date: 2023-03-01
 Tags: ['cluster munition', 'submunition', '9N235', '9N210']
+aliases:
+- /about/collaborations/t4t
 images:
 - https://vframe.io/9n235/images/vframe_t4t_9n235_photogrammetry.png
 ---
