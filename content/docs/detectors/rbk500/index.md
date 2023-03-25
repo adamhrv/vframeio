@@ -1,6 +1,7 @@
 ---
 title: RBK-500
-description: Building RBK-250 aerial bomb / cargo munition object detector
+title_h1: RBK-500 Object Detector
+description: Building computer vision algorithms with 3D modeling to detect the RBK-500
 bookToc: false
 url: /rbk500
 date: 2023-03-01
@@ -15,9 +16,7 @@ bookSearch: False
 sitemap_exclude: True
 ---
 
-# RBK-500 Object Detector
-
-Building computer vision algorithms with 3D modeling to detect the RBK-500 cargo/aerial munition
+{{< titling >}}
 
 ![RBK-500 tail photogrammetry reconstruction model. &copy; Adam Harvey / VFRAME.io and Tech 4 Tracing. 2023](images/rbk500-02.jpg#watermark)
 

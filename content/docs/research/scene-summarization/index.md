@@ -9,9 +9,7 @@ images:
 - https://vframe.io/scene-summarization/images/feature.jpg
 ---
 
-# Scene Summarization
-
-Accelerate neural network analysis by using simpler, faster algorithms to skip perceptually similar frames in a video
+{{< titling >}}
 
 ![Example video containing cluster munition via Mnemonic.org](images/feature.jpg)
 

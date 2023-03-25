@@ -1,13 +1,14 @@
 ---
 Title: Media Attribute Analysis
 url: /media-attributes
-published: 2020-06-10
+date: 2020-06-10
+updated: 2023-03-01
 description: Using simple media attributes to understand large OSINT video datasets
 images:
 - https://vframe.ioimages/vframe_plot_ratio.png
 ---
 
-# Media Attribute Analysis
+{{< titling >}}
 
 Understanding large video datasets with simple media attributes can help reduce processing times by removing low-probability outlier videos
 

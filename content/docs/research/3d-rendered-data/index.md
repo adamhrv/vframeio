@@ -1,14 +1,14 @@
 ---
 title: 3D Rendered Data
 url: /3d-rendered-data
-published: 2019-11-08
+date: 2019-11-08
 description: Using 3D modeled scenes to build synthetic training datasets for objects in conflict zones
 weight: 1
 images:
 - https://vframe.io/docs/research/media-attributes/synthetic_data_cover_02.jpg
 ---
 
-# 3D Rendered Training Data
+{{< titling >}}
 
 Active research area. See the latest results on the [9N235/9N210](/9n235) submunition
 

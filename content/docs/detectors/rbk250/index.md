@@ -1,5 +1,6 @@
 ---
 title: RBK-250
+title_h1: RBK-250 Object Detector
 description: Building RBK-250 aerial bomb / cargo munition object detector
 bookToc: false
 url: /rbk250
@@ -9,7 +10,8 @@ images:
 - https://vframe.io/docs/detectors/rbk500/rbk250-01.jpg
 ---
 
-# RBK-250 Object Detector
+{{< titling >}}
+
 
 Building computer vision algorithms with 3D modeling to detect the RBK-250 cargo/aerial munition
 

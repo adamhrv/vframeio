@@ -1,6 +1,7 @@
 ---
 title: 9N235
-description: Building 9N235/210 submunition object detector
+title_h1: 9N235/9N210 Submunition Object Detector
+description: Building a 9N235/210 submunition object detector with photography, photogrammetry, 3D-rendering, 3D-printing, and convolutional neural networks
 url: /9n235
 date: 2023-03-01
 Tags: ['cluster munition', 'submunition', '9N235', '9N210']
@@ -10,11 +11,7 @@ images:
 - https://vframe.io/9n235/images/vframe_t4t_9n235_photogrammetry.png
 ---
 
-# 9N235/9N210 Submunition Object Detector
-
-Building a 9N235/210 submunition object detector with photography, photogrammetry, 3D-rendering, 3D-printing, and convolutional neural networks
-
-<small><i class="fa fa-hammer" aria-hidden="true"></i> This page is still under development and comprises the preliminary version of a research report to be submitted in the next few months.</small>
+{{< titling >}}
 
 <div class="video-player" >
 <div class="video-player" >
@@ -33,6 +30,8 @@ Updates:
 - October 2022:  VFRAME partner Tech 4 Tracing dispatches [policy brief (PDF)](https://tech4tracing.org/s/T4T-PolicyBrief1-Aug2022.pdf) on using new technology for illicit arms control following our joint presentation at United Nations in summer 2022
 
 {{< include "/data/includes/disclaimer.html" >}}
+
+<i class="fa fa-hammer" aria-hidden="true"></i> This page is still under development and comprises the preliminary version of a research report to be submitted in the next few months.
 
 ## Introduction
 

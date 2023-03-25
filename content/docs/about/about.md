@@ -43,9 +43,9 @@ Stay tuned for more updates during 2022 including the release of a new 9N235 det
 ### Team
 
 {{< three-col-images-eager
-    src1="assets/adam-harvey.gif"
-    src2="assets/jules-laplace.gif"
-    src3="assets/josh-evans.gif"
+    src1="/docs/about/assets/adam-harvey.gif"
+    src2="/docs/about/assets/jules-laplace.gif"
+    src3="/docs/about/assets/josh-evans.gif"
     caption1="<strong>Adam Harvey / Director</strong><br>Computer vision, image processing, 3D rendering, and systems engineering."
     caption2="<strong>Jules LaPlace / Collaborator</strong><br>Information architecture, front-end engineering."
     caption3="<strong>Josh Evans / Collaborator</strong><br>3D design, photogrammetry, emerging 3D technologies."
