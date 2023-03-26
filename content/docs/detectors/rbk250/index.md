@@ -1,7 +1,7 @@
 ---
 title: RBK-250
 title_h1: RBK-250 Object Detector
-description: Building RBK-250 aerial bomb / cargo munition object detector
+description: Building a RBK-250 aerial bomb tailfin object detector
 bookToc: false
 url: /rbk250
 date: 2023-03-01

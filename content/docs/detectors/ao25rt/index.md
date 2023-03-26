@@ -1,7 +1,7 @@
 ---
 title: AO-2.5RT
 title_h1: AO-2.5RT Object Detector
-description: Building AO-2.5RT cluster munition object detector with 3D-rendered and 3D-printed synthetic data
+description: Building an AO-2.5RT cluster munition object detector with 3D-rendered and 3D-printed synthetic data
 date: 2023-03-01
 bookToc: false
 url: /ao25rt

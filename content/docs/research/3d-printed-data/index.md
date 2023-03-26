@@ -1,13 +1,13 @@
 ---
 status: published
-display_order: 5
 url: /3d-printed-data
 title: 3D Printed Data
 title_h1: 3D Printed Synthetic Data
+description: Enriching synthetic data with 3D printed cluster munition replicas for use in image training datasets
 published: 2021-01-23
 updated: 2023-03-12
+display_order: 5
 weight: 2
-Summary: Enriching synthetic data with 3D printed cluster munition replicas for use in image training datasets
 ---
 
 {{< titling >}}
