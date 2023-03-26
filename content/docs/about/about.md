@@ -8,9 +8,9 @@ weight: 10
 ## VFRAME researches and develops state-of-the-art computer vision technologies for human rights research and conflict zone monitoring
 
 
-VFRAME is developed and maintained by [Adam Harvey](https://ahprojects.com) in Berlin with contributions from Jules LaPlace, Josh Evans, and a growing list of collaborators. VFRAME is being piloted with [Mnemonic.org](Mnemonic.org) an organization dedicated to helping human rights defenders effectively use digital documentation of human rights violations and international crimes to support advocacy, justice and accountability. 
+VFRAME is developed and maintained by [Adam Harvey](https://adam.harvey.studio) in Berlin with contributions from Jules LaPlace, Josh Evans, and a growing list of collaborators. VFRAME is being piloted with [Mnemonic.org](Mnemonic.org) an organization dedicated to helping human rights defenders effectively use digital documentation of human rights violations and international crimes to support advocacy, justice and accountability. 
 
-VFRAME's image processing software and detection models are open-source with MIT licenses and available at [github.com/vframeio](https:github.com/vframeio).
+VFRAME's image processing software and detection models are open-source with MIT licenses and available at [github.com/vframeio](https://github.com/vframeio).
 
 {{< two-col-images-eager
     src1="/docs/about/assets/vframe_republica.jpg"
@@ -22,7 +22,7 @@ VFRAME's image processing software and detection models are open-source with MIT
 
 ### Recent News and Events
 
-- **August 2022**: VFRAME announces [partnership](/about/collaborations/t4t) with [Tech 4 Tracing](https://tech4tracing.org/) to gain access to munitions for photogrammetry scanning and benchmark dataset captures
+- **August 2022**: VFRAME announces partnership with [Tech 4 Tracing](https://tech4tracing.org/) to access munitions for photogrammetry scanning and benchmark dataset captures
 - **June 2022**: VFRAME presents at United Nations Eighth Biennial Meeting of States on Small Arms and Light Weapons in NYC
 - **February 2022**: New <a href="https://vimeo.com/681436143">video</a> shows how VFRAME uses 3D rendered synthetic image training data to build object detection algorithms for cluster munitions
 - **December 2021**: VFRAME featured in the Financial Times: [Researchers train AI on ‘synthetic data’ to uncover Syrian war crimes](https://www.ft.com/content/8399873e-0dda-4c87-ba59-0e2678166fba)
