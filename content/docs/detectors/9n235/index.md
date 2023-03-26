@@ -140,7 +140,7 @@ The results are not perfect but can be convincingly real. Below are two photos o
 {{< two-col-images
     src1="images/9n235_t4t_iphone_02_0140.jpg"
     src2="images/vframe-9n235-replica-01.jpg"
-    caption1="One is real and one is a replica. Two photos of 9N235 submunitions used for benchmark data to evaluate detection performance when covered in mud."
+    caption1="One is real and one is a replica. Two photos of 9N235 submunitions used to evaluate detection performance when covered in mud."
     caption2="One is real and one is a replica. Two photos of 9N235 submunitions used to evaluate detection performance when covered in mud."
 >}}
 

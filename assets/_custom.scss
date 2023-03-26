@@ -152,7 +152,7 @@ body {
         list-style: none;
         &:first-child {
           color: #333;
-           line-height: 1.125rem;
+           line-height: 1.325rem;
         }
         &:nth-child(2) {
           color: #999;
@@ -308,6 +308,12 @@ body {
 @media (max-width: 840px) {
   body {
     .markdown {
+      p {
+        line-height: 1.8rem;
+        font-size: 1.125rem;
+        padding-right: 1rem;
+
+      }
       h1 {
         margin-top: 1rem;
         font-size: 2rem;
@@ -329,6 +335,14 @@ body {
           line-height: 1.75rem;
         }
       }
+      ul.subtitle {
+        li {
+          &:first-child {
+            font-size: 0.875rem;
+            line-height: 1.25rem;
+          }
+        }
+      }
     }
   }
 }
@@ -336,6 +350,8 @@ body {
 @media (max-width: 600px) {
   body {
     .markdown {
+      ul.subtitle {
+      }
       .welcome {
         font-size: 3rem;
         line-height: 3rem;
@@ -367,4 +383,5 @@ body {
     }
     }
   }
+
 }
