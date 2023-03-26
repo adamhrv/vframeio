@@ -16,7 +16,7 @@ VFRAME develops and deploys computer vision technologies for analyzing conflict 
     src="9n235/images/vframe_9n235_synthetic_bbox.jpg" 
     title="9N235/9N210 Submunition Object Detector"
     subtitle="Building a 9N235/9N210 submunition object detector with photography, photogrammetry, 3D-rendering, 3D-printing, and convolutional neural networks"
-    link="/9n235"
+    link="/9n235/"
 >}}
 
 
@@ -26,8 +26,8 @@ VFRAME develops and deploys computer vision technologies for analyzing conflict 
 {{< two-col-images-eager
     src1="9n235/images/index.jpg" 
     src2="ao25rt/images/index.jpg" 
-    url1="/9n235"
-    url2="/ao25rt"
+    url1="/9n235/"
+    url2="/ao25rt/"
     caption1="NEW: 9N235 object detector released"
     caption2="In development: AO2.5RT object detector"
 >}}
@@ -37,9 +37,9 @@ VFRAME develops and deploys computer vision technologies for analyzing conflict 
     src1="media-attributes/images/index.png"
     src2="3d-rendered-data/images/index.jpg"  
     src3="3d-printed-data/images/index.jpg" 
-    url1="media-attributes"
-    url2="3d-rendered-data"
-    url3="3d-printed-data"
+    url1="/media-attributes/"
+    url2="/3d-rendered-data/"
+    url3="/3d-printed-data/"
     caption1="Using Media Attributes to Understand Large Video Datasets"
     caption2="3D-Rendered Synthetic Training Data"
     caption3="3D-Printed Synthetic Training Data"

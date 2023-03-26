@@ -15,7 +15,7 @@ images:
 
 <div class="video-player" >
 <div class="video-player" >
-    <video width="100%" height="auto" controls poster="/9n235/images/9n235_model_07_2740_poster.jpg">
+    <video width="100%" height="auto" controls poster="images/9n235_model_07_2740_poster.jpg">
   <source src="https://files.vframe.io/vframe_io/9n235_model_07_2740.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
