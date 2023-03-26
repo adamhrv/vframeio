@@ -55,7 +55,7 @@ body {
     ul {
       li {
         line-height: 24px;
-        font-size: 14px;
+        font-size: 16px;
         margin-bottom: 5px;
       }
     }
@@ -138,7 +138,7 @@ body {
       font-size: 3rem;
       line-height: 3rem;;
       color: #111;
-      margin-bottom: 0.25rem;
+      margin-bottom: 0.0rem;
       display: inline-block;
     }
 
@@ -152,23 +152,13 @@ body {
         list-style: none;
         &:first-child {
           color: #333;
+           line-height: 1.125rem;
         }
         &:nth-child(2) {
           color: #999;
           font-size: 0.75rem;
           line-height: 1.125rem;
         }
-      }
-    }
-
-    h1 + ul, h1 + p  {
-      font-family: 'Roboto Mono';
-      padding-left: 0px;
-      font-size: 0.875rem;
-      line-height: 1.25rem;  
-      li {
-        color: #333;
-        list-style: none;
       }
     }
 
@@ -324,6 +314,9 @@ body {
         line-height: 2.4rem;
         font-weight: 700;
         letter-spacing: -1px;
+      }
+      h2 {
+        margin: 2rem 0rem 0.0rem 0rem;
       }
       .welcome {
         font-size: 4rem;

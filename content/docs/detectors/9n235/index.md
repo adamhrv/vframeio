@@ -19,7 +19,7 @@ images:
   <source src="https://files.vframe.io/vframe_io/9n235_model_07_2740.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
-<div class="caption">Sample test video showing detections for 9N235 using the version 1C object detector</div>
+<div class="caption">Test video showing detections for 9N235 using the version 1C object detector</div>
 </div>
 
 

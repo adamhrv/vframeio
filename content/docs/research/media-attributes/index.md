@@ -228,7 +228,7 @@ To run these analysis on your dataset, download the VFRAME software from https:/
 
 If you're interested in looking further at the timestamp data, additional plots are included below.
 
-{{< details "**Monthly plots for 2011-2019.**" >}}
+{{< details "**Monthly plots for 2011-2019**" >}}
 
 ![](images/plot_date_2011.png)
 ![](images/plot_date_2012.png)
