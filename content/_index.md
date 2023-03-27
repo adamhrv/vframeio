@@ -3,6 +3,8 @@ title: "VFRAME"
 type: docs
 bookToc: false
 description: Computer vision for OSINT/OSI. Custom object detection algorithms trained with photorealistic synthetic data.
+images:
+    - https://vframe.io/9n235/images/vframe_9n235_synthetic_bbox.jpg
 ---
 
 
@@ -53,11 +55,11 @@ Human rights researchers often rely on videos shared online to document war crim
 
 Since 2017 VFRAME has been working with [Mnemonic.org](http://mnemonic.org), a Berlin-based organization dedicated to documenting war crimes and human rights violations, to develop computer vision tools to address these challenges.
 
-Specifically, VFRAME has been developing a scalable computer vision system for large-scale analysis of video archives to detect illegal munitions, and redaction tools to blur faces. VFRAME can detect objects, such as the RBK-250 munition found in videos from the Syrian conflict or the 9N235 submunition documented in Ukraine, with up to 99% accuracy at over 400 FPS on a single workstation.
+Specifically, VFRAME has been developing a scalable computer vision system for large-scale analysis of video archives to detect illegal munitions, and redaction tools to blur faces. VFRAME can detect objects, such as the [RBK-250](/rbk250/) munition found in videos from the Syrian conflict or the [9N235](/9n235/) submunition documented in Ukraine, with up to 99% accuracy at over 400 FPS on a single workstation. The vocabulary of objects is growing and will soon include the [AO-2.5RT](/ao25rt), Uragan/Smerch rockets, and the RBK-500.
 
 ### Core Technologies
 
-VFRAME creates high-fidelity synthetic data to develop custom object detection, semantic segmentation, and image classification technologies high-risk objects including cluster munitions and anti-personnel mines. Read about our past and current research in the press:
+VFRAME creates high-fidelity synthetic data to develop custom object detection, semantic segmentation, and image classification technologies for high-risk objects including cluster munitions and anti-personnel mines. Read about our past and current research in the press:
 
 - **Financial Times** > [Researchers train AI on ‘synthetic data’ to uncover Syrian war crimes](https://www.ft.com/content/8399873e-0dda-4c87-ba59-0e2678166fba)
 - **Economist** > [AI helps scour video archives for evidence of human-rights abuses](https://www.economist.com/international/2021/06/05/ai-helps-scour-video-archives-for-evidence-of-human-rights-abuses)
