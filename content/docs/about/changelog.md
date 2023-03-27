@@ -4,8 +4,9 @@ description: Development updates and changes
 bookToc: false
 url: /changelog
 date: 2023-03-16
+modified: 2023-03-28
 images:
-- https://vframe.io/docs/research/3d-rendered-data/images/ao25_wireframe.jpg
+- https://vframe.io/3d-rendered-data/images/ao25_wireframe.jpg
 ---
 
 

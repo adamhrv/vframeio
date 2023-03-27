@@ -5,7 +5,7 @@ date: 2019-11-08
 description: Using 3D modeled scenes to build synthetic training datasets for objects in conflict zones
 weight: 1
 images:
-- https://vframe.io/docs/research/media-attributes/synthetic_data_cover_02.jpg
+- https://vframe.io/3d-rendered-data/synthetic_data_cover_02.jpg
 ---
 
 {{< titling >}}

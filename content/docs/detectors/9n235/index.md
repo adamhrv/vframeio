@@ -4,6 +4,7 @@ title_h1: 9N235/9N210 Submunition Object Detector
 description: Building a 9N235/210 submunition object detector with photography, photogrammetry, 3D-rendering, 3D-printing, and convolutional neural networks
 url: /9n235
 date: 2023-03-01
+modified: 2023-03-26
 Tags: ['cluster munition', 'submunition', '9N235', '9N210']
 aliases:
 - /about/collaborations/t4t

@@ -6,8 +6,8 @@
 <ul class="subtitle">
 	<li>{{ .Page.Description }}</li>
 	<li>Posted: {{ .Page.Params.date | time.Format ":date_medium" }}
-{{ if .Page.Params.updated }}
-. Updated: {{ .Page.Params.updated | time.Format ":date_medium" }}
+{{ if .Page.Params.modified }}
+. Modified: {{ .Page.Params.modified | time.Format ":date_medium" }}
 	{{ end }}
 	</li>
 </ul>

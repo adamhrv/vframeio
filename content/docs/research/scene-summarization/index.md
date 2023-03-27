@@ -4,7 +4,7 @@ description: Content-based scene summarization to find the most representative f
 status: published
 url: /scene-summarization
 published: 2021-01-23
-updated: 2021-03-12
+modified: 2021-03-12
 images:
 - https://vframe.io/scene-summarization/images/feature.jpg
 ---
