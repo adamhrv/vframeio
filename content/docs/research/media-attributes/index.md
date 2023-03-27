@@ -5,7 +5,7 @@ date: 2020-06-10
 modified: 2023-03-01
 description: Using simple media attributes to understand large OSINT video datasets
 images:
-- https://vframe.io/media-attributes/images/vframe_plot_ratio.png
+- https://vframe.io/media-attributes/images/plot_duration.png
 ---
 
 {{< titling >}}
