@@ -25,8 +25,13 @@ vf utils media-attrs -i analysis/filelist.txt -o analysis/attributes.csv
 # Step 3: Sanitize and filter media attributes 
 vf utils media-attrs-filter -i analysis/attributes.csv -o analysis/attributes-filtered.csv
 
+# Step 3 optional: print summary statistics
+vf utils media-attrs-summarize -i analysis/attributes_filtered.csv
+
 # Step 4: Generate plots from CSV data
 vf utils media-attrs-plot -i analysis/attributes-filtered.csv -o analysis/plots/
+
+# add --help to any command for more options
 ```
 
 ![Size distribution for 168K videos from BrownMoses YouTube channel.](images/plot_duration.png)
@@ -124,6 +129,36 @@ vf utils media-attrs-filter -i analysis/attributes.csv -o analysis/attributes_fi
 vf utils media-attrs-filter --help
 ```
 
+### Step 3 (optional): Summarize
+
+To quickly summarize the contents of the dataset run the `media-attrs-summarize` command. The summary statistics show the basic quantities for time and media elements, and comparisons for human vs machine perceptual labor. These stats are useful for quantifying and comparing datasets. The dataset of BrownMoses videos contains is about 457 hours long. Tasking a researcher to watch every video during 8 hour work days would take 1,373 days (though in reality less because the video could be skimmed) and for a machine running at 240FPS it would require 48 days to analyze every frame. In practice the machine analysis time can be reduced using techniques like perceptual hashing to skip similar frames.
+
+```
+# Optional: print summary statistics
+vf utils media-attrs-summarize -i analysis/attributes_filtered.csv
+```
+
+```code
+n_days: 457.667
+n_hours: 10,984.003
+n_minutes: 659,040.193
+n_seconds: 39,542,411.556
+n_frames: 1,001,047,322
+n_videos: 168,010
+n_videos_lt_1min: 51,453
+n_videos_lt_2min: 95,547
+n_videos_lt_3min: 125,827
+n_videos_lt_4min: 140,583
+n_videos_lt_5min: 146,615
+n_days_human_8hrs: 1,373.000
+n_days_human_24hrs: 457.667
+n_days_machine_30fps: 386.207
+n_days_machine_60fps: 193.103
+n_days_machine_120fps: 96.552
+n_days_machine_240fps: 48.276
+```
+
+
 ### Step 4: Visualize Data
 
 The output is still the same CSV format and can now be plotted using the `media-attrs-plot` command using the filtered CSV as input and a directory path as output.
@@ -131,24 +166,6 @@ The output is still the same CSV format and can now be plotted using the `media-
 ```
 # Step 5: Plot Data
 vf utils media-attrs-plot -i analysis/attributes_filtered.csv -o analysis/plots/
-
-# Add verbose output for more detailed stats
-vf utils media-attrs-plot -i analysis/attributes_filtered.csv -o analysis/plots/ --verbose
-```
-
-The verbose stats show how many total frames are in the dataset and comparison estimates for human vs. machine perceptual labor.
-
-```code
-Videos under 1 minute: 30.62%
-Videos under 2 minutes: 56.87%
-Videos under 4 minutes: 83.68%
-Human Work days @8h: 1373.00
-Human Days @24h: 457.67
-Computer Work days @30FPS: 386.21
-Computer Work days @60FPS: 193.10
-Computer Work days @120FPS: 96.55
-Frames: 1,001,047,322
-Hours: 1,468.68
 ```
 
 The plotting script outputs histograms for each attribute showing the total number of videos for each histogram bin. For example, the width and height plots below show that over 100K videos are around 1280 pixels wide and 720px wide and around 20K are about 640x360px. 

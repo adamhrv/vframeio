@@ -13,6 +13,9 @@ images:
 
 Short updates on VFRAME development progress, bug fixes, model releases, and news to provide more transprency into project developemnt and activity.
 
+March 27
+- Remove verbose from `media-attrs-plot`, add '`media-attrs-summarize` for simpler summaries
+
 March 16
 - Updated `media-attrs` with more manual binning interval and size options. The auto-binning yielded arbitrary intervals.
 - Updated site to add work in progress for the Uragan, RBK-250, and RBK-500
