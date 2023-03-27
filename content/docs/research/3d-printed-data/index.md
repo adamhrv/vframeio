@@ -31,19 +31,14 @@ Previous attempts during 2019-2020 explored using stereolithography (SLA) resin 
 ![Previous attempt using SLA printing to create AO-2.5RT cluster munition replica](images/vf-sla-prints-03.jpg#watermark)
 
 
-VFRAME has been prototype this technique since 2019 in collaboration with [Mnemonic](https://mnemonic.org), an organization dedicated to preserving evidence of atrocities and war-crimes in [Syria](https://syrianarchive.org), [Yemen](https://yemeniarchive.org), and [Sudan](https://sudanesearchive.org). Since 2022 it has been used to help train the final detection models used to locate evidence of illegal cluster munition strikes in videos from Syria and Yemen, and now also in Ukraine.
+VFRAME has been prototyping this technique since 2019 with the best results being applied to the ongoing collaboration with [Mnemonic](https://mnemonic.org), an organization dedicated to preserving evidence of atrocities and war-crimes in [Syria](https://syrianarchive.org), [Yemen](https://yemeniarchive.org), and [Sudan](https://sudanesearchive.org). Since 2022 it has been used to help train the final detection models used to locate evidence of illegal cluster munition strikes in videos from Syria and Yemen, and now also in Ukraine.
 
 
 ### Key Findings from Research 2019 - 2023
 
 Printing
 - Use FDM printing with PLA filament for making replicas
-- Print with closest color filament match as base material
 - Print at 0.2mm layer height for prototype and 0.1mm for final print
-- Post-process with wet sandpaper using 100-200-400-800 for smooth surfaces
-- Avoid using electric sanding with dry sandpapers as it can melt plastic
-- Use primer to fill gaps in layer lines between wet sanding
-- Use brush or spray painting to finalize
 - Combine materials (metal screws, connectors) to add more real material texture where possible
 
 Safety
