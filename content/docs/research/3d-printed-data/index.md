@@ -13,6 +13,8 @@ images:
 
 {{< titling >}}
 
+*Active research area. See the latest results on the [9N235/9N210](/9n235/) submunition*
+
 ![3D printed assembly of the 9N235/9N210 submunition used for created physical synthetic data](images/vframe-9n235-replica-3d-printed.jpg#watermark)
 
 

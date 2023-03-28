@@ -3,6 +3,8 @@ bookFlatSection: true
 title: "About "
 url: /about
 weight: 10
+images:
+- https://vframe.io/about/assets/vframe_republica.jpg
 ---
 
 ## VFRAME researches and develops state-of-the-art computer vision technologies for human rights research and conflict zone monitoring
@@ -10,11 +12,11 @@ weight: 10
 
 VFRAME is developed and maintained by [Adam Harvey](https://adam.harvey.studio) in Berlin with contributions from Jules LaPlace, Josh Evans, and a growing list of collaborators. VFRAME is being piloted with [Mnemonic.org](Mnemonic.org) an organization dedicated to helping human rights defenders effectively use digital documentation of human rights violations and international crimes to support advocacy, justice and accountability. 
 
-VFRAME's image processing software and detection models are open-source with MIT licenses and available at [github.com/vframeio](https://github.com/vframeio).
+VFRAME's command line interface (CLI) image processing software and detection models are open-source with MIT licenses and available at [github.com/vframeio](https://github.com/vframeio).
 
 {{< two-col-images-eager
-    src1="/docs/about/assets/vframe_republica.jpg"
-    src2="/docs/about/assets/un-bms8-2022.jpg"
+    src1="/about/assets/vframe_republica.jpg"
+    src2="/about/assets/un-bms8-2022.jpg"
     caption1="2018: Showing an early prototype of the AO-2.5RT object detector at republica:18 in Berlin with Hadi Al-Khatib from Syrian Archive"
     caption2="2022: Showing a functional AO-2.5RT object detector at the United Nations 8th Biennial Meeting of States on Small Arms and Light Weapons in partnership with Tech 4 Tracing."
 >}}
@@ -37,7 +39,7 @@ Since then VFRAME's mission has been to research, prototype, and deploy computer
 
 More precisely, the VFRAME project develops two main technologies: a core image processing engine to analyze large collections of videos (millions) or images (billions), and a synthetic data rendering system to generate high-fidelity training data. Together, these two approaches are being utilized to develop accurate object detectors capable of locating objects of interest (e.g. an RBK-250 tailfin or a 9N235 submunition) in millions of video files culled from online sources. 
 
-Stay tuned for more updates during 2022 including the release of a new 9N235 detector and the final models for the RBK-250, RBK-500, and AO-25RT submunition.
+Stay tuned for more updates during 2023 including the release of the RBK-250, RBK-500, Uragan, Smerch, and AO-25RT submunition.
 
 
 ### Team

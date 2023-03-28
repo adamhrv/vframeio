@@ -5,6 +5,7 @@ description: Building a 9N235/210 submunition object detector with photography, 
 url: /9n235
 date: 2023-03-01
 modified: 2023-03-26
+author: Adam Harvey
 Tags: ['cluster munition', 'submunition', '9N235', '9N210']
 aliases:
 - /about/collaborations/t4t
@@ -24,19 +25,24 @@ Your browser does not support the video tag.
 </div>
 
 
-This page outlines the development process of building an object detector for the 9N235/210 submunition using photography, photogrammetry, 3D modeling, 3D printing, and convolutional neural networks. For code and models visit [github.com/vframeio/vframe](https://github.com/vframeio/vframe). The model is free to use for commercial purposes if the LICENSE and CREDIT information is included (MIT).
+This page outlines the development process of building an object detector for the 9N235/210 submunition using photography, photogrammetry, 3D modeling, 3D printing, and convolutional neural networks. For code and models visit [github.com/vframeio/vframe](https://github.com/vframeio/vframe). The model is free to use for commercial purposes if the LICENSE and CREDIT information is included (MIT). To run the model on your dataset, download the VFRAME CLI image processing [software](https://github.com/vframeio/vframe) and run:
 
-Updates:
+```
+vf pipe open -i input/ detect -m 9n235 save-detections -o output/
+```
+
+#### Updates:
 - February 2023: Improved detection models (version 1c) released
 - October 2022:  VFRAME partner Tech 4 Tracing dispatches [policy brief (PDF)](https://tech4tracing.org/s/T4T-PolicyBrief1-Aug2022.pdf) on using new technology for illicit arms control following our joint presentation at United Nations in summer 2022
+- June 2022: VFRAME presents prototype 9N235 and AO-2.5RT detectors at United Nations Eighth Biennial Meeting of States on Small Arms and Light Weapons in NYC with Tech 4 Tracing
 
 {{< include "/data/includes/disclaimer.html" >}}
 
-<i class="fa fa-hammer" aria-hidden="true"></i> This page is still under development and comprises the preliminary version of a research report to be submitted in the next few months.
+![3D visualization of finalized 9N210/9N235 photogrammetry model](images/vframe-9n235-material.jpg#watermark)
 
 ## Introduction
 
-In spring of 2022 the VFRAME team partnered with Tech 4 Tracing on-site at an explosive ordinance training center in Europe with the goal of capturing photogrammetry scans of free-from-explosive (FFE) submunitions, including the 9N210 submunition (pictured above). Several hundred high-resolution photos were used to reconstruct a millimeter-accurate 3D model of the submunition's geometry. With the high-fidelity 3D model as a reference, thousands of procedurally randomized photorealistic synthetic training images were generated, annotated, then used to train a convolutional neural network object detection algorithm.
+In spring of 2022 the VFRAME team partnered with [Tech 4 Tracing](https://tech4tracing.org) to visit an explosive ordinance training center in Europe with the goal of capturing photogrammetry scans of free-from-explosive (FFE) submunitions, including the 9N210 submunition (rendered above). Several hundred high-resolution photos were used to reconstruct a millimeter-accurate 3D model of the submunition's geometry. With the high-fidelity 3D model as a reference, thousands of procedurally randomized photorealistic synthetic training images were generated, annotated, then used to train a convolutional neural network object detection algorithm.
 
 **The current 9N235/9N210 object detector model yields a 0.98 F1 score** on a custom benchmark dataset with challenging examples including partially occluded, partially exploded, damaged, dirt-covered munitions in various weather conditions from various camera angles and lenses. The new model (version 1C) was released on February 1, 2023, is available for download with a MIT license at [github.com/vframeio/vframe](https://github.com/vframeio/vframe), and improves the overall performance of the previous model (version 1B) released in July last year. 
 
@@ -51,11 +57,12 @@ VFRAME is a computer vision project that develops open-source technology for hum
 
 Many thanks to the [organizations](/funding) that have supported this project during the last several years and to VFRAME's latest partner Tech 4 Tracing for facilitating access to the FFE munitions, as well as Fenix Insight for additional support and coordination on benchmark data development, SIDA/Meedan for continued operation support, and PrototypeFund for initial research support into synthetic data. 
 
+
+![A FFE 9N235/9N210 submunition photographed at close range in wet forest terrain](images/9n235_t4t_02_0306.jpg#watermark)
+
 ## 9N235 Submunition
 
 The 9N210 and 9N235 are high-explosive fragmentation submunitions, also known as cluster munitions. Upon detonation the explosive payload blasts metal fragments in all directions, indiscriminately killing or maiming bystanders including non-combatant civilians. For this reason, cluster munitions are banned in 119 countries by the [Convention on Cluster Munitions](https://www.clusterconvention.org). Although neither Russian nor Ukraine are signatories (nor is the United States), they are still bound by international humanitarian law, which prohibits indiscriminate attacks.[^hrw_syria_cluster]
-
-![3D visualization of finalized 9N235 photogrammetry model](images/vframe-9n235-material.jpg#watermark)
 
 Recent documentation from Ukraine shows 9N235/9N210 submunitions have been widely deployed by Russia. Journalists and human rights researchers have documented dozens of instances where these cluster munitions were used in urban and residential areas. In December 2022 HRW reported that"[s]ince the full-scale invasion of Ukraine, Russian forces have repeatedly used cluster munitions, which are inherently indiscriminate weapons, in attacks that have killed hundreds of civilians and damaged homes, hospitals, and schools."[^hrw_kherson] Other previous reports show this weapon was also used in attacks in Syria. In March 2022, investigative group Bellingcat noted that the 9N235/9N210 cluster munitions were the "[most common type of cluster munition](https://twitter.com/bellingcat/status/1502237551146459137)" so far used in Ukraine.
 
@@ -141,8 +148,8 @@ The results are not perfect but can be convincingly real. Below are two photos o
 {{< two-col-images
     src1="images/9n235_t4t_iphone_02_0140.jpg"
     src2="images/vframe-9n235-replica-01.jpg"
-    caption1="One is real and one is a replica. Two photos of 9N235 submunitions used to evaluate detection performance when covered in mud."
-    caption2="One is real and one is a replica. Two photos of 9N235 submunitions used to evaluate detection performance when covered in mud."
+    caption1="One is real and one is a replica. Two photos of 9N235 submunitions used to evaluate detection performance when partially covered with mud."
+    caption2="One is real and one is a replica. Two photos of 9N235 submunitions used to evaluate detection performance when partially covered with mud."
 >}}
 
 ## Benchmark Data
@@ -189,18 +196,17 @@ Another way to visulize performance is to look at the confusion matrix, which sh
 {{< two-col-images
     src1="images/detections/9n235_ah_scene_01_000010.jpg"
     src2="images/detections/9n235_ah_scene_01_000129.jpg"
-    caption1=""
-    caption2=""
+    caption1="Benchmark image created using 3D-printed 9N235/9N210 replica"
+    caption2="Benchmark image created using 3D-printed 9N235/9N210 replica"
 >}}
-
 
 When there's motion blur, the detector should still work well. Here an older camera was used with a poor quality sensor that also produces overexposed areas on the metal. The detector performs well and is also able to ignore the false-positive decoys placed in the scene.
 
-![](images/detections/9n235_vf_02_cam_h_000207.jpg#watermark)
+![Test on low quality camera with motion blur using real FFE and  9N235/9N210 surrogate (replica) fabricated by Fenix Insight](images/detections/9n235_vf_02_cam_h_000207.jpg#watermark)
 
 Another test determines if the detector is smart enough to differentiate between a complex scene of metal tubes and submunitions mixed together. Most of the targets are detected with over 90% accuracy, but the object in the top middle drops to 75% because the black fins are less prominent here and wet leaves are covering an important detail where the cylinder meets the fin assembly.
 
-![Benchmark image created in collaboration in Fenix Insight](images/detections/9n235_vf_02_cam_h_000052.jpg#watermark)
+![Benchmark image created in collaboration in Fenix Insight using several 9N235/9N210 surrogates (replicas) fabricated by Fenix Insight](images/detections/9n235_vf_02_cam_h_000052.jpg#watermark)
 
 Referring back to the 3 images used as reference to evaluate the detectability, these are now used as benchmark data to evaluate the detector’s performance. None of these images were included in the training dataset. The results speak to the power of an artist-driven, data-centric approach to developing neural networks. All 3 objects were easily detected, even the submunition partially visible and still inside the rocket.
 
@@ -221,31 +227,30 @@ The model is trained in multiple architectures for deployment on workstations or
 
 {{% include "/data/9n235/metrics.md" %}}
 
-### Future Reports
+#### Future Reports
 
 - OSINT analysis for 100K image dataset (April 2023)
 - OSINT analysis for 1M video dataset (May 2023)
 
-### Credits
+#### Credits
 
 - Adam Harvey: AI/ML systems, synthetic data, object detection, 3D printing
 - Josh Evans: photogrammetry, 3D reconstruction, 3d modeling, 3D printing
-- Tech 4 Tracing: EOD coordination
-- Fenix Insight: additional replica/surrogate fabrication and benchmark dataset collaboration
+- [Tech 4 Tracing](https://tech4tracing.org): EOD coordination
+- [Fenix Insight](https://fenix-insight.com): additional replica/surrogate fabrication and benchmark dataset collaboration
 
-### License
+#### License
 
 - The model files are released open-source with an MIT license. They are free to use for commercial systems **only** if the license is included and distributed with any software deployments.
 - Unless otherwise noted, all images are &copy; Adam Harvey / VFRAME.io
 
-### Funding
+#### Funding
 
 - Initial development self-supported by workshops and exhibition fees (2022-2023)
-- Advancements and performance improvements supported by [Fenix Insight](https://fenix-insight.online/) (2023)
-- Development of the 9N235/9N210 detector is largely based on several years of research supported by grants from Prototype Fund and SIDA/Meedan (2019-2021)
+- Advancements and performance improvements for version 1C supported by [Fenix Insight](https://fenix-insight.com/) (2022-2023)
+- Development of the 9N235/9N210 detector is largely based on several years of prior research supported by grants from Prototype Fund and SIDA/Meedan (2019-2021)
 - Read more about VFRAME's supporters [here](/funding)
 
----
 
 {{< include "/data/includes/disclaimer.html" >}}
 
