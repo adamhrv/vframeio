@@ -10,8 +10,6 @@ bookDraft: True
 draft: True
 bookSearch: False
 sitemap_exclude: True
-images:
-- https://vframe.io/docs/research/vframe_t4t_9n235_photogrammetry.png
 ---
 
 ## FAQ

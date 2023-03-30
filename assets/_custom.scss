@@ -28,6 +28,16 @@ body {
     .fa, .far, .fas {
       color: #777;
     }
+
+    .book-columns .markdown-inner {
+      margin: 1rem 0 0 0;
+    }
+
+    // reduce table font size
+      table tr {
+        font-size: 0.875rem;
+      }
+
     code {
       line-break: anywhere;
     }
@@ -50,13 +60,16 @@ body {
     }
     p {
       line-height: 1.8rem;
-      font-size: 1.125rem;;
+      font-size: 1.125rem;
     }
+
     ul {
+      padding-left:1rem;
       li {
         line-height: 24px;
         font-size: 16px;
         margin-bottom: 5px;
+        list-style: square;
       }
     }
     img {
@@ -164,9 +177,10 @@ body {
 
     h2 {
       font-weight: 400;
-      font-size: 2.5rem;
+      font-size: 2.25rem;
       line-height: 3.5rem;;
       color: #333;
+      margin: 2.5rem 0 0 0;
     }
     
     h3 {
@@ -217,6 +231,7 @@ body {
           font-size: 0.75rem;
           color: #111;
           line-height: 1.125rem;
+          margin-bottom: 0;
         }
       }
     }
@@ -308,6 +323,12 @@ body {
 @media (max-width: 840px) {
   body {
     .markdown {
+
+      // reduce table font size
+      table tr {
+        font-size: 0.875rem;
+      }
+
       p {
         line-height: 1.8rem;
         font-size: 1.125rem;
@@ -322,7 +343,8 @@ body {
         letter-spacing: -1px;
       }
       h2 {
-        margin: 2rem 0rem 0.0rem 0rem;
+        font-size: 2rem;
+        line-height: 2.5rem;
       }
       .welcome {
         font-size: 4rem;
@@ -350,6 +372,12 @@ body {
 @media (max-width: 600px) {
   body {
     .markdown {
+
+      // reduce table font size
+      table tr {
+        font-size: 0.75rem;
+      }
+
       ul.subtitle {
       }
       .welcome {
