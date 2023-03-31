@@ -1,5 +1,6 @@
 ---
 title: 3D Rendered Data
+title_h1: 3D Rendered Synthetic Data
 url: /3d-rendered-data
 date: 2019-11-08
 description: Using 3D modeled scenes to build synthetic training datasets for objects in conflict zones

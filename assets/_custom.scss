@@ -35,9 +35,7 @@ body {
 
     // reduce table font size
     table {
-      display: table;
       width: 100%;
-      min-width: 100%;
     }
     table tr {
       font-size: 0.875rem;
@@ -109,10 +107,10 @@ body {
       ul {
         margin: 0;
         padding: 0;
-        list-style: none;
         margin-top: 0.5em;
         li {
           font-size: 1.25rem;
+          list-style: none;
           line-height: 2rem;
           &:first-child {
             font-weight: bold;
