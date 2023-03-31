@@ -15,8 +15,8 @@ VFRAME is developed and maintained by [Adam Harvey](https://adam.harvey.studio) 
 VFRAME's command line interface (CLI) image processing software and detection models are open-source with MIT licenses and available at [github.com/vframeio](https://github.com/vframeio).
 
 {{< two-col-images-eager
-    src1="/about/assets/vframe_republica.jpg"
-    src2="/about/assets/un-bms8-2022.jpg"
+    src1="/docs/about/assets/vframe_republica.jpg"
+    src2="/docs/about/assets/un-bms8-2022.jpg"
     caption1="2018: Showing an early prototype of the AO-2.5RT object detector at republica:18 in Berlin with Hadi Al-Khatib from Syrian Archive"
     caption2="2022: Showing a functional AO-2.5RT object detector at the United Nations 8th Biennial Meeting of States on Small Arms and Light Weapons in partnership with Tech 4 Tracing."
 >}}

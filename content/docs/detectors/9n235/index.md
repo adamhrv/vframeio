@@ -15,15 +15,7 @@ images:
 
 {{< titling >}}
 
-<div class="video-player" >
-<div class="video-player" >
-    <video width="100%" height="auto" controls poster="images/9n235_model_07_2740_poster.jpg">
-  <source src="https://files.vframe.io/vframe_io/9n235_model_07_2740.mp4" type="video/mp4">
-Your browser does not support the video tag.
-</video>
-<div class="caption">Test video showing detections for 9N235 using the version 1C object detector</div>
-</div>
-
+![A FFE 9N235/9N210 submunition photographed at close range in wet forest terrain](images/9n235_t4t_02_0306.jpg#watermark)
 
 This page outlines the development process of building an object detector for the 9N235/210 submunition using photography, photogrammetry, 3D modeling, 3D printing, and convolutional neural networks. For code and models visit [github.com/vframeio/vframe](https://github.com/vframeio/vframe). The model is free to use for commercial purposes if the LICENSE and CREDIT information is included (MIT). To run the model on your dataset, download the VFRAME CLI image processing [software](https://github.com/vframeio/vframe) and run:
 
@@ -38,13 +30,20 @@ vf pipe open -i input/ detect -m 9n235 save-detections -o output/
 
 {{< include "/data/includes/disclaimer.html" >}}
 
-![3D visualization of finalized 9N210/9N235 photogrammetry model](images/vframe-9n235-material.jpg#watermark)
-
 ## Introduction
 
 In spring of 2022 the VFRAME team partnered with [Tech 4 Tracing](https://tech4tracing.org) to visit an explosive ordinance training center in Europe with the goal of capturing photogrammetry scans of free-from-explosive (FFE) submunitions, including the 9N210 submunition (rendered above). Several hundred high-resolution photos were used to reconstruct a millimeter-accurate 3D model of the submunition's geometry. With the high-fidelity 3D model as a reference, thousands of procedurally randomized photorealistic synthetic training images were generated, annotated, then used to train a convolutional neural network object detection algorithm.
 
 **The current 9N235/9N210 object detector model yields a 0.98 F1 score** on a custom benchmark dataset with challenging examples including partially occluded, partially exploded, damaged, dirt-covered munitions in various weather conditions from various camera angles and lenses. The new model (version 1C) was released on February 1, 2023, is available for download with a MIT license at [github.com/vframeio/vframe](https://github.com/vframeio/vframe), and improves the overall performance of the previous model (version 1B) released in July last year. 
+
+<div class="video-player" >
+<div class="video-player" >
+    <video width="100%" height="auto" controls poster="images/9n235_model_07_2740_poster.jpg">
+  <source src="https://files.vframe.io/vframe_io/9n235_model_07_2740.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<div class="caption">Test video showing detections for 9N235 using the version 1C object detector</div>
+</div>
 
 {{% include "/data/9n235/metrics.md" %}}
 
@@ -58,9 +57,11 @@ VFRAME is a computer vision project that develops open-source technology for hum
 Many thanks to the [organizations](/funding) that have supported this project during the last several years and to VFRAME's latest partner Tech 4 Tracing for facilitating access to the FFE munitions, as well as Fenix Insight for additional support and coordination on benchmark data development, SIDA/Meedan for continued operation support, and PrototypeFund for initial research support into synthetic data. 
 
 
-![A FFE 9N235/9N210 submunition photographed at close range in wet forest terrain](images/9n235_t4t_02_0306.jpg#watermark)
 
-## 9N235 Submunition
+
+## 9N210/9N235 Submunition
+
+![3D visualization of finalized 9N210/9N235 photogrammetry model](images/vframe-9n235-material.jpg#watermark)
 
 The 9N210 and 9N235 are high-explosive fragmentation submunitions, also known as cluster munitions. Upon detonation the explosive payload blasts metal fragments in all directions, indiscriminately killing or maiming bystanders including non-combatant civilians. For this reason, cluster munitions are banned in 119 countries by the [Convention on Cluster Munitions](https://www.clusterconvention.org). Although neither Russian nor Ukraine are signatories (nor is the United States), they are still bound by international humanitarian law, which prohibits indiscriminate attacks.[^hrw_syria_cluster]
 
