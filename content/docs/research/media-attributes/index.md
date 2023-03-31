@@ -110,7 +110,7 @@ Often there will be corrupted or partial video files that need to filtered out, 
 corrupted.mp4, mp4, True, 1280, 720, 1.778, 0, avc1, 197280.0, 0  <-- corrupt video
 ```
 
-Remove the corrupted entries this the following command:
+Remove the corrupted entries using the following command:
 ```
 # Step 4: Sanitize data
 vf utils media-attrs-filter -i analysis/attributes.csv -o analysis/attributes_filtered.csv
@@ -161,14 +161,14 @@ n_days_machine_240fps: 48.276
 
 ### Step 4: Visualize Data
 
-The output is still the same CSV format and can now be plotted using the `media-attrs-plot` command using the filtered CSV as input and a directory path as output.
+The output is still the same CSV format and can now be plotted using the `media-attrs-plot` command with the filtered CSV as input and a directory path as output.
 
 ```
 # Step 5: Plot Data
 vf utils media-attrs-plot -i analysis/attributes_filtered.csv -o analysis/plots/
 ```
 
-The plotting script outputs histograms for each attribute showing the total number of videos for each histogram bin. For example, the width and height plots below show that over 100K videos are around 1280 pixels wide and 720px wide and around 20K are about 640x360px. 
+The plotting script outputs histograms for each attribute showing the total number of videos for each histogram bin. For example, the width and height plots below show that over 100K videos are around 1280 x 720px wide and around 20K are about 640 x 360px. 
 
 ![Width distribution for about 168K videos linked to TheBrownMoses YouTube account](images/plot_width.png)
 
@@ -178,7 +178,7 @@ The plotting script outputs histograms for each attribute showing the total numb
 
 Fore more clarity on the aspect ratio distribution, [K-Means clustering]() is used to cluster the width and height data. The number of clusters to use for the calculation will depend on your dataset and experimentation. Refer to the height and width plots to estimate the number of clusters in your video dataset. In this dataset, there appears to be dense clusters at 1280x720 and 640x360 with scattered width distribution at 720px height. Subjectively, K-Means should use 6 or 7 clusters. It's also possible that your dataset has only one video size and the cluster size is 1 (then use `--clusters 1`).
 
-![K-Means cluster for about 13K videos linked to BrownMoses YouTube channel](images/plot_kmeans.png)
+![K-Means cluster of video aspect ratios](images/plot_kmeans.png)
 
 ![Most common aspect ratios calculated using K-Means clustering](images/plot_ratio.png)
 
@@ -193,7 +193,7 @@ Plotting the FPS provides some level of understanding for the type cameras being
 
 ### Duration
 
-Visualizing the duration of videos helps understand how conflicts are being documented and how much time is needed for processing. The plot below clearly shows a strong trend: video duration is inversely related to its quantity with an exponential decay. From this simple plot, a helpful insight can be extrapolated suggesting that a "typical" YouTube video related to, documenting, or commenting on a conflict zone is most likely going to be 1-3 minutes. 
+Visualizing the duration of videos helps understand how conflicts are being documented and how much time is needed for processing. The plot below clearly shows a strong trend: video duration is inversely related to its quantity with a long-tail distribution. From this simple plot, a helpful insight can be extrapolated suggesting that a "typical" YouTube video related to, documenting, or commenting on a conflict zone is most likely going to be 1-3 minutes. 
 
 Duration stats also help estimate hardware resources needed for deeper analysis. The total duration of this filtered video dataset is 1,468 hours of footage. If one person were to watch it would take 3.7 years of 8-hour days, or 1.25 years of non-stop watching. Analyzing the footage at 30FPS would require just over 1 year, a half year at 60FPS, and just 1.5 months at 120FPS. In total this would analyze 1 billion frames.
 
@@ -231,12 +231,12 @@ Analyzing media attributes for 168K videos required only 1.5 hours of processing
 From this quick analysis a noisy dataset of 168K videos linked to TheBrownMoses YouTube channel became more understandable and easier to communicate. A few quick insights learned:
 - Videos were uploaded mostly between 2016-2019, with almost twice as many in 2017 as in any other year
 - Most videos (117,080) are medium resolution (1280x720 pixels), about 42,000 were low resolution (480x360 or 640x360 pixels), and about 6,000 videos are very low resolution (320x240 pixels)
-- The most common video lengths are between 15 seconds and 3 minutes with a 
+- The most common video lengths are between 15 seconds and 3 minutes
 
 
-NB: The dataset used in this demo contains a lot of noise and does not even represent all accounts linked to TheBrownMoses YouTube channel, nor does do the statistics extrapolate to conflict zone documentation in general. The post is designed to introduce the scripts to help understand and filter noisy data.
+NB: The dataset used in this demo contains a lot of noise and does not accurately represent all accounts linked to TheBrownMoses YouTube channel, nor does do the statistics extrapolate to conflict zone documentation in general. The post is designed to introduce the scripts to help understand and filter noisy data.
 
-To run these analysis on your dataset, download the VFRAME software from https://github.com/vframe/vframe
+To run these analysis on your dataset, download the VFRAME software from https://github.com/vframeio/vframe
 
 
 ---
