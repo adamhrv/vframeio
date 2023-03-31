@@ -34,13 +34,16 @@ vf utils media-attrs-plot -i analysis/attributes-filtered.csv -o analysis/plots/
 # add --help to any command for more options
 ```
 
-![Size distribution for 168K videos from BrownMoses YouTube channel.](images/plot_duration.png)
+Download the software at https://github.com/vframeio/vframe
+
+
+![Size distribution for 168K videos linked to BrownMoses YouTube channel](images/plot_duration.png)
 
 Before analyzing hundreds of thousands or millions of videos it's helpful to visualize the distribution of video attributes, such as frame size, duration, date, and frame rate. A simple approach to visualizing this information is to use the [PyMediaInfo](https://github.com/sbraz/pymediainfo) library, a Python wrapper around the original [MediaInfo](https://mediaarea.net/en/MediaInfo) library. To avoid confusion, the term *media attributes* is used here to describe immutable attributes of a video or image file, and does not refer to other content-based metadata attributes such as those inferred by neural networks.
 
 Media attribute analysis is rather simple and often overlooked, but can reveal useful insights about the structure of video datasets. Because it runs fast and is multithreaded, it's an easy first step to start planning a large-scale analysis. Faster processing speeds are achieved with high-speed SSD storage (100-500 files/sec), while using HDD-based networked-attached storage (NAS) devices will be slower (20-50 files/sec). If possible, first migrate your dataset to the fastest storage medium. This also speeds up subsequent video analysis algorithms.
 
-The videos used in this demo were all obtained using [youtube-dl](https://youtube-dl.org/) Python package, a custom spidering script, and the YouTube channel [TheBrownMoses](https://www.youtube.com/user/TheBrownmoses) (aka Eliot Higgins/Belllingcat). 
+The videos used in this demo were all obtained using [youtube-dl](https://youtube-dl.org/) Python package, a custom spidering script, and the YouTube channel [TheBrownMoses](https://www.youtube.com/user/TheBrownmoses) (aka Eliot Higgins/Bellingcat). 
 
 To understand how the media attributes code works, here's a basic example showing how to access each attribute:
 
@@ -258,5 +261,3 @@ If you're interested in looking further at the timestamp data, additional plots 
 ![](images/plot_date_2019.png)
 
 {{< /details >}}
-
-Text, graphics, and analysis: Adam Harvey. Updated March 2023. Made with VFRAME.

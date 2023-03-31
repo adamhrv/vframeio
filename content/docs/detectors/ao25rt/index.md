@@ -13,6 +13,8 @@ Tags: ['cluster munition', 'ao25rt']
 
 ![AO-2.5RT submunition 3D model created using photogrammetry](images/vframe-ao25rt-material.jpg#watermark)
 
-Object detection model under development. This page will be updated as more information is available.
+Object detection model under development. This page will be updated when more information is available. 
+
+The AO-2.5RT detector will be available first as a standalone detector then merged with other objects into a multi-class detector.
 
 {{< include "/data/includes/disclaimer.html" >}}

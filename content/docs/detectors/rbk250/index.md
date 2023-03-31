@@ -17,6 +17,8 @@ Building computer vision algorithms with 3D modeling to detect the RBK-250 cargo
 
 ![RBK-250 partial photogrammetry reconstruction baesd on video provided by Mnemonic.org 2022](images/vframe_rbk250_01.png#watermark)
 
-Object detection model under development. This page will be updated as more information is available. 
+Object detection model under development.
+
+The RBK-250 detector will be available first as a standalone detector then merged with other objects into a multi-class detector.
 
 {{< include "/data/includes/disclaimer.html" >}}
