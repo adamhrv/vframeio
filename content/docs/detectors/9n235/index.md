@@ -20,7 +20,8 @@ images:
 This page outlines the development process of building an object detector for the 9N235/210 submunition using photography, photogrammetry, 3D modeling, 3D printing, and convolutional neural networks. For code and models visit [github.com/vframeio/vframe](https://github.com/vframeio/vframe). The model is free to use for commercial purposes if the LICENSE and CREDIT information is included (MIT). To run the model on your dataset, download the VFRAME CLI image processing [software](https://github.com/vframeio/vframe) and run:
 
 ```
-vf pipe open -i input/ detect -m 9n235 save-detections -o output/
+# Detect 9N235/9N210 and draw detections with confidence score
+vf pipe open -i input/ detect -m 9n235 draw display
 ```
 
 #### Updates:

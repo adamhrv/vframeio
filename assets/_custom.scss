@@ -34,9 +34,14 @@ body {
     }
 
     // reduce table font size
-      table tr {
-        font-size: 0.875rem;
-      }
+    table {
+      display: table;
+      width: 100%;
+      min-width: 100%;
+    }
+    table tr {
+      font-size: 0.875rem;
+    }
 
     code {
       line-break: anywhere;
