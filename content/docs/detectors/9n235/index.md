@@ -112,8 +112,6 @@ The example images below were rendered using a simulated 40mm lens on a DSLR typ
 
 ![3D-rendered image with a 9N235 submunition used in the training dataset. Image &copy; Adam Harvey / VFRAME 2023](images/vframe_9n235_synthetic_image.jpg#watermark)
 
-![Color-coded pixel mask used to automatically generate annotation data. Image &copy; Adam Harvey / VFRAME 2023](images/vframe_9n235_synthetic_colored.png#watermark)
-
 ![Auto-generated mask and bounding box values for training data. Image &copy; Adam Harvey / VFRAME 2023](images/vframe_9n235_synthetic_bbox.jpg#watermark)
 
 
