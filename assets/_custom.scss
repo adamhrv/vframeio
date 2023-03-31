@@ -21,7 +21,6 @@ body {
     &:hover {
       color: #00f;
     }
-
   }
   .markdown {
     /* Font awesome */
@@ -41,11 +40,23 @@ body {
       font-size: 0.875rem;
     }
 
+    pre {
+      &:focus {
+        outline-style: none;
+      }
+    }
+
     code {
       line-break: anywhere;
     }
     details {
+      background: #fafafa;
+      border-radius: 0.5rem;
       summary {
+        &:hover {
+          background: #fbfbfb;
+          color: #444;
+        }
         &:focus {
           user-select: none; /* Standard */
           outline-color: #f00;
@@ -302,6 +313,10 @@ body {
           &:hover {
             color: #0a1eff;
           }
+          &:focus {
+            outline-style: none;
+            color: #00a; 
+          }
         }
         a {
           display: inline-block;
@@ -311,6 +326,10 @@ body {
           }
           &:hover {
             color: #0a1eff;
+          }
+          &:focus {
+            outline-style: none;
+            color: #00a; 
           }
         }
       }
