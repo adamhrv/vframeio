@@ -12,7 +12,10 @@ images:
 
 # Development Updates
 
-Short updates on VFRAME development progress, bug fixes, model releases, and news to provide more transprency into project developemnt and activity.
+Short updates on VFRAME development progress, bug fixes, model releases, and news to provide more transparency into project development and activity.
+
+March 30
+- Submit research report to James Madison University journal on building the 9N235 detector and applicability of this technology to mine clearance and EOD work
 
 March 27
 - Remove verbose from `media-attrs-plot`, add `media-attrs-summarize` for simpler summaries
