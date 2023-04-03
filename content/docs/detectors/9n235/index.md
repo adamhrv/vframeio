@@ -202,7 +202,7 @@ Referring back to the 3 images used as reference to evaluate the detectability, 
 >}}
 
 
-Testing should continue with more images and videos from different devices, regions, lighting conditions, and object appearances. Below are several images taken in Ukraine that show how the detector handles a partially exploded 9N235/9N210 submunition that is covered with mud and placed against different backdrops. Note that this munition is not entirely FFE submunition and was recently recovered by a Ukrainian demining group. 
+Testing should continue with more images and videos from different devices, regions, lighting conditions, and object appearances. Below are several images taken in Ukraine that show how the detector handles a partially exploded 9N235/9N210 submunition that is covered with mud and placed against different backgrounds. Note that this munition is not entirely FFE submunition and was recently recovered by a Ukrainian demining group. 
 
 
 ![Partially exploded 9N235 photographed under supervision of EOD personnel in Ukraine](images/detections/vframe_ukraine_test_public_005.jpg#watermark)
