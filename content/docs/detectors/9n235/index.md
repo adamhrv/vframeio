@@ -47,7 +47,7 @@ In spring of 2022 the VFRAME team partnered with [Tech 4 Tracing](https://tech4t
     </div>
 </div>
 
-{{% include "/data/9n235/metrics.md" %}}
+{{% include "/docs/detectors/9n235/data/metrics.md" %}}
 
 The current version (1C) performs best on human-height videos or images created with smartphone cameras and is designed to handle typical artifacts common in online imagery including watermarks, compression, light motion blur, and various image ratios. An additional version designed for aerial detection is planned for release later this year. 
 
@@ -56,7 +56,7 @@ The current version (1C) performs best on human-height videos or images created 
 
 VFRAME is a computer vision project that develops open-source technology for human rights research, investigative journalists, and conflict zone monitoring. After several years of research and development into synthetic data fabrication techniques using [3D-rendering](/3d-rendered-data) and [3D-printed](/3d-printed-data) data, this is the first publication of an object detection algorithm that uses all combined methods, with enough benchmark data to confirm the results. 
 
-Many thanks to the [organizations](/funding) that have supported VFRAME during the last several years and to VFRAME's latest partner Tech 4 Tracing for facilitating access to the FFE munitions, and to Fenix Insight for additional development support and coordination on benchmark data development, to SIDA/Meedan for continued operational support, and to PrototypeFund.de for initial research support into computer vision for human rights and synthetic data.
+Many thanks to the [organizations](/funding/) that have supported VFRAME during the last several years and to VFRAME's latest partner Tech 4 Tracing for facilitating access to the FFE munitions, and to Fenix Insight for additional development support and coordination on benchmark data development, to SIDA/Meedan for continued operational support, and to PrototypeFund.de for initial research support into computer vision for human rights and synthetic data.
 
 
 ## 9N210/9N235 Submunition
@@ -115,7 +115,7 @@ The example images below were rendered using a simulated 40mm lens on a DSLR typ
 ![Auto-generated mask and bounding box values for training data. Image &copy; Adam Harvey / VFRAME 2023](images/vframe_9n235_synthetic_bbox.jpg#watermark)
 
 
-## Step 4: 3D-Printed Synthetic Data
+## Step 3: 3D-Printed Synthetic Data
 
 With the right lighting, textures, and render settings, 3D-rendered images can achieve convincing photorealism but they still contain artifacts of a simulated world and risk overfitting if the target objects are too rigid or lack diversity. Based on our research and training tests from the last several years, algorithms trained on synthetic data will always produce overconfident and misleading results when tested on more 3D-rendered, even when all parameters are randomized. This is logical because the test dataset is comprised of the same foundational synthetic features and textures used in the training images. It is not an inherent problem of 3D-rendered synthetic data though, rather of basic overfitting. To overcome this problem, VFRAME has pioneered a hybrid approach that uses [3D-printed data](/docs/research/3d-printed-data) to generate additional "synthetic" images in the real world.
 
@@ -134,7 +134,7 @@ The results can be convincingly real. Below are two photos of 9N235/9N210 submun
     caption2="One is real and one is a replica. Photo of 9N235 submunition used to evaluate detection performance when partially covered with mud."
 >}}
 
-## Benchmark Data
+## Step 4: Benchmark Data
 
 With the submunition 3D-modeled, synthetic images 3D-rendered, and 3D-printed models photographed, the next step is to curate the benchmark dataset to evaluate the neural network's performance.
 
@@ -145,7 +145,7 @@ Benchmark data is essential for understanding the accuracy of the trained object
 The results also help guide the thresholds settings for greedy or conservative deployments, where false positives rates are balanced with higher true positive recall rates. Because the output is always a probabilistic determination the actual deployment thresholds must be customized to the target environment. For example, a million-scale OSINT video analysis could first triage everything above 80% accuracy, then look deeper at lower confidence (50-80%) matches when time permits. The more permissive threshold will usually locate more objects but at the expense of more false positives. In another example, an aerial survey of an attack site could start with a low-confidence threshold because the environment is more constrained and any object slightly resembling the target munition could be analyzed further by zooming in.
 
 
-## Model Metrics
+### Step 5: Training and Model Metrics
 
 The model is trained using synthetic data but evaluated using multiple types of real data, including images sourced online. The most common metrics are applied to measure how well it can detect the true-positives (recall), how well it ignores the false-positives (accuracy), and how precise the bounding boxes are (mAP). These metrics are combined into one score called the F1 to give an summarized performance metric.
 
@@ -201,13 +201,13 @@ Referring back to the 3 images used as reference to evaluate the detectability, 
     caption3="Detection result on social media reference imagery. Source: https://twitter.com/eod205/status/1503387454258266118"
 >}}
 
-## Performance
+### Performance
 
 The model is trained in multiple architectures for deployment on workstations or mobile/edge devices. Running on a HEDT (high-end desktop workstation) achieves a maximum 187 FPS with the nano architecture and the full performance (recommended) model reaches 43 FPS. 
 
 ![Frames per second on NVIDIA 3090 at 1280 pixels inference size averaged over 100 iterations for nano, small, medium, and large YOLOV5 architectures at batch size 8 using .pt model format](images/9n235-fps-bs8.png)
 
-{{% include "/data/9n235/metrics.md" %}}
+{{% include "/docs/detectors/9n235/data/metrics.md" %}}
 
 
 ## Conclusion
@@ -252,8 +252,8 @@ This project is an example of new technology-based innovations that will continu
 
 List of incidents involving documented use of the 9N235/9N210 submunition
 
-{{% include "/data/9n235/reports.md" %}}
-
+{{% include "/docs/detectors/9n235/data/reports.md" %}}
+<div class="caption"><a href="/9n235/data/reports.csv">Download data as CSV</a></div>
 
 [^9n235_documentation]: See https://armamentresearch.com/russian-9n235-submunitions-documented-in-ukraine-2022. The investigative group Bellingcat has determined that the 9N235/9N210 is “the most common type of cluster munition” used in the Ukraine conflict. See https://twitter.com/bellingcat/status/1502237551146459137. 
 [^ccm]: As of late March 2023, the Convention on Cluster Munitions had 111 States Parties and 12 Signatories. See https://www.clusterconvention.org/states-parties. 
