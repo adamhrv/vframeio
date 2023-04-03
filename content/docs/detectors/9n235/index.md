@@ -209,9 +209,13 @@ Testing should continue with more images and videos from different devices, regi
 ![Partially exploded 9N235 photographed under supervision of EOD personnel in Ukraine](images/detections/vframe_ukraine_test_public_017.jpg#watermark)
 ![Partially exploded 9N235 photographed under supervision of EOD personnel in Ukraine](images/detections/vframe_ukraine_test_public_032.jpg#watermark)
 
-There are limits. And it's important to understand when the detector can fail, especially for mine detection or mine clearance work. Below is example illustrating the breaking point, when the detector fails due to a diagonal motion blur combined with an already damaged/partial submunition. 
+There are limits. And it's important to understand when the detector can fail, especially for mine detection or mine clearance work. Below is an example illustrating a breaking point when the detector fails due to a diagonal motion blur combined with an already damaged/partial submunition. 
 
 ![Failed detection. A partially exploded 9N235 photographed under supervision of EOD personnel in Ukraine](images/detections/vframe_ukraine_test_public_007.jpg#watermark)
+
+This behavior is expected with the current model, which is designed for large-scale analysis of video archives (1 million +) for which it's important to reduce false positives. For mine clearance work, the model would need to be retrained with more examples like the image above and then could trigger a low-confidence score that would resolve to high-confidence when the image stabilized. There are other factors to consider though. If this was to be used for real-time analysis the camera might already have image-stabilization technology to reduce motion blur. 
+
+More feedback and more testing images are welcome. Reach out to the VFRAME team [here](/about/).
 
 
 ### Performance
