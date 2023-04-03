@@ -201,6 +201,19 @@ Referring back to the 3 images used as reference to evaluate the detectability, 
     caption3="Detection result on social media reference imagery. Source: https://twitter.com/eod205/status/1503387454258266118"
 >}}
 
+
+Testing should continue with more images and videos from different devices, regions, lighting conditions, and object appearances. Below are several images taken in Ukraine that show how the detector handles a partially exploded 9N235/9N210 submunition that is covered with mud and placed against different backdrops. Note that this munition is not entirely FFE submunition and was recently recovered by a Ukrainian demining group. 
+
+
+![Partially exploded 9N235 photographed under supervision of EOD personnel in Ukraine](images/detections/vframe_ukraine_test_public_005.jpg#watermark)
+![Partially exploded 9N235 photographed under supervision of EOD personnel in Ukraine](images/detections/vframe_ukraine_test_public_017.jpg#watermark)
+![Partially exploded 9N235 photographed under supervision of EOD personnel in Ukraine](images/detections/vframe_ukraine_test_public_032.jpg#watermark)
+
+There are limits. And it's important to understand when the detector can fail, especially for mine detection or mine clearance work. Below is example illustrating the breaking point, when the detector fails due to a diagonal motion blur combined with an already damaged/partial submunition. 
+
+![Failed detection. A partially exploded 9N235 photographed under supervision of EOD personnel in Ukraine](images/detections/vframe_ukraine_test_public_007.jpg#watermark)
+
+
 ### Performance
 
 The model is trained in multiple architectures for deployment on workstations or mobile/edge devices. Running on a HEDT (high-end desktop workstation) achieves a maximum 187 FPS with the nano architecture and the full performance (recommended) model reaches 43 FPS. 
