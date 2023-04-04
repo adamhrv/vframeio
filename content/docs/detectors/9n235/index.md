@@ -1,7 +1,7 @@
 ---
 title: 9N235
 title_h1: 9N235/9N210 Submunition Object Detector
-description: Building a 9N235/9N210 submunition object detector with photography, photogrammetry, 3D-rendering, 3D-printing, and convolutional neural networks
+description: Building a 9N235/9N210 submunition detector with photography, photogrammetry, 3D-rendering, 3D-printing, and convolutional neural networks
 url: /9n235
 date: 2023-03-01
 modified: 2023-03-26
@@ -33,7 +33,7 @@ vf pipe open -i input/ detect -m 9n235 draw display
 
 ## Introduction
 
-In spring of 2022 the VFRAME team partnered with [Tech 4 Tracing](https://tech4tracing.org) to visit an explosive ordnance training center in Europe with the goal of capturing photogrammetry scans of free-from-explosive (FFE) submunitions, including the 9N210 submunition (rendered above). Several hundred high-resolution photos were used to reconstruct a millimeter-accurate 3D model of the submunition's geometry. With the high-fidelity 3D model as a reference, thousands of procedurally randomized photorealistic synthetic training images were generated, annotated, then used to train a convolutional neural network object detection algorithm.
+In spring of 2022 the VFRAME team partnered with [Tech 4 Tracing](https://tech4tracing.org) to visit an explosive ordnance training center in Europe with the goal of capturing photogrammetry scans of free-from-explosive (FFE) submunitions, including the 9N210 submunition (pictured above). Several hundred high-resolution photos were used to reconstruct a millimeter-accurate 3D model of the submunition's geometry. With the high-fidelity 3D model as a reference, thousands of procedurally randomized photorealistic synthetic training images were generated, annotated, then used to train a convolutional neural network object detection algorithm.
 
 **The current 9N235/9N210 object detector model yields a 0.98 F1 score** on a custom benchmark dataset with challenging examples including partially occluded, partially exploded, damaged, dirt-covered munitions in various weather conditions from various camera angles and lenses. The new model (version 1C) was released on February 1, 2023, is available for download with a MIT license at [github.com/vframeio/vframe](https://github.com/vframeio/vframe), and improves the overall performance of the previous model (version 1B) released in July last year. 
 
@@ -254,7 +254,7 @@ This project is an example of new technology-based innovations that will continu
 ### Funding
 
 - Development of the 9N235/9N210 detector is largely based on several years of prior research supported by grants from Prototype Fund and SIDA/Meedan (2019-2021)
-- Initial development self-supported by workshops and exhibition fees (2022-2023)
+- Initial prototypes and development self-supported by workshops and exhibition fees (2022-2023)
 - Performance improvements and benchmark dataset improvements for version 1C supported by [Fenix Insight](https://fenix-insight.com/) (2022-2023)
 - Read more about VFRAME's supporters [here](/funding)
 
