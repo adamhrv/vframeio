@@ -254,7 +254,7 @@ This project is an example of new technology-based innovations that will continu
 - Development of the 9N235/9N210 detector is largely based on several years of prior research supported by grants from Prototype Fund and SIDA/Meedan (2019-2021)
 - Initial prototypes and development self-supported by workshops and exhibition fees (2022-2023)
 - Performance improvements and benchmark dataset improvements for version 1C supported by [Fenix Insight](https://fenix-insight.com/) (2022-2023)
-- Read more about VFRAME's supporters [here](/funding)
+- Read more about VFRAME's supporters [here](/funding/)
 
 
 {{< include "/data/includes/disclaimer.html" >}}
