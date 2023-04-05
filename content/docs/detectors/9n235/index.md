@@ -204,7 +204,7 @@ Testing should continue with more images and videos from different devices, regi
 
 <a id="test-images-ukraine"></a>
 
-![Partially exploded 9N235 photographed under supervision of EOD personnel in Ukraine](images/vframe_9n235_006_draw.png#watermark)
+![Partially exploded 9N235 photographed under supervision of EOD personnel in Ukraine](images/detections/vframe_9n235_006_draw.png#watermark)
 ![Partially exploded 9N235 photographed under supervision of EOD personnel in Ukraine](images/detections/vframe_ukraine_test_public_005.jpg#watermark)
 ![Partially exploded 9N235 photographed under supervision of EOD personnel in Ukraine](images/detections/vframe_ukraine_test_public_017.jpg#watermark)
 ![Partially exploded 9N235 photographed under supervision of EOD personnel in Ukraine](images/detections/vframe_ukraine_test_public_032.jpg#watermark)
