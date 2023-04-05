@@ -202,7 +202,9 @@ Referring back to the 3 images used as reference to evaluate the detectability, 
 
 Testing should continue with more images and videos from different devices, regions, lighting conditions, and object appearances. Below are several images taken in Ukraine that show how the detector handles a partially exploded 9N235/9N210 submunition that is covered with mud and placed against different backgrounds. Note that this munition is not entirely FFE submunition and was recently recovered by a Ukrainian demining group. 
 
+<a id="test-images-ukraine"></a>
 
+![Partially exploded 9N235 photographed under supervision of EOD personnel in Ukraine](images/vframe_9n235_006_draw.png#watermark)
 ![Partially exploded 9N235 photographed under supervision of EOD personnel in Ukraine](images/detections/vframe_ukraine_test_public_005.jpg#watermark)
 ![Partially exploded 9N235 photographed under supervision of EOD personnel in Ukraine](images/detections/vframe_ukraine_test_public_017.jpg#watermark)
 ![Partially exploded 9N235 photographed under supervision of EOD personnel in Ukraine](images/detections/vframe_ukraine_test_public_032.jpg#watermark)
@@ -211,7 +213,7 @@ There are limits. And it's important to understand when the detector can fail, e
 
 ![Failed detection. A partially exploded 9N235 photographed under supervision of EOD personnel in Ukraine](images/detections/vframe_ukraine_test_public_007.jpg#watermark)
 
-This behavior is expected with the current model, which is designed for large-scale analysis of video archives (1 million +) for which it's important to reduce false positives. For mine clearance work, the model would need to be retrained with more examples like the image above and then could trigger a low-confidence score that would resolve to high-confidence when the image stabilized. There are other factors to consider though. If this was to be used for real-time analysis the camera might already have image-stabilization technology to reduce motion blur. 
+This behavior is expected with the current model, which is designed for large-scale analysis of video archives (1 million +) for which it's important to reduce false positives. For mine clearance work, the model would need to be retrained with more examples like the image above and then could trigger a low-confidence score that would resolve to high-confidence when the image stabilized. There are other factors to consider though. If this were to be used for real-time analysis the camera might already have image-stabilization technology to reduce motion blur. 
 
 More feedback and more testing images are welcome. Reach out to the VFRAME team [here](/about/).
 
