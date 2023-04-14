@@ -14,6 +14,15 @@ images:
 
 Short updates on VFRAME development progress, bug fixes, model releases, and news to provide more transparency into project development and activity.
 
+April 14
+- Retrain the 9N235/9N210 detectors with new data to better handled damaged and partial objects, and reduce false positives
+- Update 9N235 detector models to version 1D <https://demos.vframe.io>
+- Separate SHA256 media deduplication script to separate command group `dedup` and small usability improvements for handling added and removed media items
+
+April 13
+- Moved modelzoo.vframe.io --> <https://demos.vframe.io> 
+- Updated the 9N235/9N210 nano and small architectures with version 1D. This update reduces false positives and improves recall on heavily damaged 9N210/9N235 submunitions based on reference photos from Ukraine.
+
 March 30
 - Submit research report to James Madison University journal on building the 9N235 detector and applicability of this technology to mine clearance and EOD work
 

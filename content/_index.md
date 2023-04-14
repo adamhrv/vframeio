@@ -2,7 +2,7 @@
 title: "VFRAME"
 type: docs
 bookToc: false
-description: Computer vision for OSINT. Custom object detection algorithms trained with photorealistic synthetic data.
+description: Computer vision technologies for OSINT and conflict zone media with neural networks powered by high-quality synthetic data
 images:
     - https://vframe.io/9n235/images/vframe_9n235_synthetic_bbox.jpg
 ---
