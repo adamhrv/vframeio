@@ -25,7 +25,8 @@ vf pipe open -i input/ detect -m 9n235 draw display
 ```
 
 #### Updates:
-- February 2023: Improved detection models (version 1C) released
+- April 2023: Model updated to 1D. Slightly improved recall and lower false positives.
+- February 2023: Improved detection models (version 1D) released
 - October 2022:  VFRAME partner Tech 4 Tracing dispatches [policy brief (PDF)](https://tech4tracing.org/s/T4T-PolicyBrief1-Aug2022.pdf) on using new technology for illicit arms control following our joint presentation at United Nations in summer 2022
 - June 2022: VFRAME presents prototype 9N235 and AO-2.5RT detectors at United Nations Eighth Biennial Meeting of States on Small Arms and Light Weapons in NYC with Tech 4 Tracing
 
@@ -35,7 +36,7 @@ vf pipe open -i input/ detect -m 9n235 draw display
 
 In spring of 2022 the VFRAME team partnered with [Tech 4 Tracing](https://tech4tracing.org) to visit an explosive ordnance training center in Europe with the goal of capturing photogrammetry scans of free-from-explosive (FFE) submunitions, including the 9N210 submunition (pictured above). Several hundred high-resolution photos were used to reconstruct a millimeter-accurate 3D model of the submunition's geometry. With the high-fidelity 3D model as a reference, thousands of procedurally randomized photorealistic synthetic training images were generated, annotated, then used to train a convolutional neural network object detection algorithm.
 
-**The current 9N235/9N210 object detector model yields a 0.98 F1 score** on a custom benchmark dataset with challenging examples including partially occluded, partially exploded, damaged, dirt-covered munitions in various weather conditions from various camera angles and lenses. The new model (version 1C) was released on February 1, 2023, is available for download with a MIT license at [github.com/vframeio/vframe](https://github.com/vframeio/vframe), and improves the overall performance of the previous model (version 1B) released in July last year. 
+**The current 9N235/9N210 object detector model yields a 0.98 F1 score** on a custom benchmark dataset with challenging examples including partially occluded, partially exploded, damaged, dirt-covered munitions in various weather conditions from various camera angles and lenses. The latest model, version 1D, was released on April 16, 2023, is available for download with a MIT license at [github.com/vframeio/vframe](https://github.com/vframeio/vframe), and improves the overall performance of the previous model (version 1B) released in July last year. 
 
 <div class="video-player" >
     <video width="100%" height="auto" controls poster="images/9n235_model_07_2740_poster.jpg">
@@ -43,13 +44,13 @@ In spring of 2022 the VFRAME team partnered with [Tech 4 Tracing](https://tech4t
         Your browser does not support the video tag.
     </video>
     <div class="caption">
-        Test video showing detections for 9N235 using the version 1C object detector
+        Test video showing detections for 9N235 using the version 1D object detector
     </div>
 </div>
 
 {{% include "/docs/detectors/9n235/data/metrics.md" %}}
 
-The current version (1C) performs best on human-height videos or images created with smartphone cameras and is designed to handle typical artifacts common in online imagery including watermarks, compression, light motion blur, and various image ratios. An additional version designed for aerial detection is planned for release later this year. 
+The current version (1D) performs best on human-height videos or images created with smartphone cameras and is designed to handle typical artifacts common in online imagery including watermarks, compression, light motion blur, and various image ratios. An additional version designed for aerial detection is planned for release later this year. 
 
 
 ### About VFRAME
@@ -220,7 +221,7 @@ More feedback and more testing images are welcome. Reach out to the VFRAME team 
 
 ### Performance
 
-The model is trained in multiple architectures for deployment on workstations or mobile/edge devices. Running on a HEDT (high-end desktop workstation) achieves a maximum 187 FPS with the nano architecture and the full performance (recommended) model reaches 43 FPS. 
+The model is trained in multiple architectures for deployment on workstations or mobile/edge devices. Running on a HEDT (high-end desktop workstation) achieves a maximum 187 FPS with the nano architecture and the full performance (recommended) model reaches 41 FPS. 
 
 ![Frames per second on NVIDIA 3090 at 1280 pixels inference size averaged over 100 iterations for nano, small, medium, and large YOLOV5 architectures at batch size 8 using .pt model format](images/9n235-fps-bs8.png)
 
@@ -255,7 +256,7 @@ This project is an example of new technology-based innovations that will continu
 
 - Development of the 9N235/9N210 detector is largely based on several years of prior research supported by grants from Prototype Fund and SIDA/Meedan (2019-2021)
 - Initial prototypes and development self-supported by workshops and exhibition fees (2022-2023)
-- Performance improvements and benchmark dataset improvements for version 1C supported by [Fenix Insight](https://fenix-insight.com/) (2022-2023)
+- Performance improvements and benchmark dataset improvements for version 1D supported by [Fenix Insight](https://fenix-insight.com/) (2022-2023)
 - Read more about VFRAME's supporters [here](/funding/)
 
 

@@ -15,9 +15,9 @@ images:
 Short updates on VFRAME development progress, bug fixes, model releases, and news to provide transparency into project development and activity.
 
 April 14
-- Retrain the 9N235/9N210 detectors with new data to improve recall for damaged and partial objects and reduce false positives
+- Retrain the 9N235/9N210 detectors with new data to improve recall for damaged and partial objects and reduce false positives.
 - Update 9N235 detector models to version 1D on [demos.vframe.io](https://demos.vframe.io)
-- Separate SHA256 media deduplication script to separate command group `dedup` and small usability improvements for handling added and removed media items
+- Separate SHA256 media deduplication script to new command group `dedup` and small usability improvements for handling added and removed media items (example: `vf dedup sha256 -i path/to/videos/`)
 
 April 13
 - Moved modelzoo.vframe.io --> [demos.vframe.io](https://demos.vframe.io)
