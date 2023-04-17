@@ -10,7 +10,7 @@ Tags: ['cluster munition', 'submunition', '9N235', '9N210']
 aliases:
 - /about/collaborations/t4t
 images:
-- https://vframe.io/9n235/images/vframe_t4t_9n235_photogrammetry.png
+- https://vframe.io/9n235/images/9n235_t4t_02_0306.jpg
 ---
 
 {{< titling >}}
