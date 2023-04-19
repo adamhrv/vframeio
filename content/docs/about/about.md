@@ -56,7 +56,9 @@ Stay tuned for more updates during 2023 including the release of the RBK-250, RB
 
 **Contact**
 
-For inquires about using VFRAME technologies please contact research at vframe.io
+-For inquires about using VFRAME technologies please contact research at vframe.io
+- Tip: for fastest reply use private and secure email like [ProtonMail](https://pr.tn/ref/KCSZEGV2E470)
+- Insecure emails that contain tracking links or tracking pixels may be automatically deleted
 
 
 ### Press Archive
