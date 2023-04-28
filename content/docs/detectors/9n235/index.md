@@ -172,7 +172,7 @@ Another way to visualize performance is to look at the confusion matrix, which s
 
 ## Step 6: Test Images
 
-Finally, it's important to not only look at the metrics but also to look at the actual detections in the test set. Below are several test images that show the target object partially occluded by tall grass. Because this type of occlusion was designed for in the training dataset (based on prior research into how the object appears in Ukraine) the detector is easily able to detect it with high confidence Also, the test images below are vertical, but most of the synthetic training images were horizontal. It's important to include all aspect ratios in the test dataset. For further insights on the media ratio distribution see the post on [media attribute analysis](/media-attribute-analysis).
+Finally, it's important to not only look at the metrics but also to look at the actual detections in the test set. Below are several test images that show the target object partially occluded by tall grass. Because this type of occlusion was designed for in the training dataset (based on prior research into how the object appears in Ukraine) the detector is easily able to detect it with high confidence Also, the test images below are vertical, but most of the synthetic training images were horizontal. It's important to include all aspect ratios in the test dataset. For further insights on the media ratio distribution see the post on [media attribute analysis](/media-attributes).
 
 {{< two-col-images
     src1="images/detections/9n235_ah_scene_01_000010.jpg"
