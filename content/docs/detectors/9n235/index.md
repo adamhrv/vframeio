@@ -118,8 +118,6 @@ The example render below was generated using a simulated 40mm lens on a DSLR typ
 
 With the right lighting, textures, and render settings, 3D-rendered images can achieve convincing photorealism but they still contain artifacts of a simulated world and risk overfitting if the target objects are too rigid or lack diversity. Based on our research and training tests from the last several years, algorithms trained on synthetic data will always produce overconfident and misleading results when tested on more 3D-rendered, even when all parameters are randomized. This is logical because the test dataset is comprised of the same foundational synthetic features and textures used in the training images. It is not an inherent problem of 3D-rendered synthetic data though, rather of basic overfitting. To overcome this problem, VFRAME has pioneered a hybrid approach that uses [3D-printed data](/docs/research/3d-printed-data) to generate additional "synthetic" images in the real world.
 
-![3D printing multi-part 9N235 submunition replica for use in simulated benchmark photos and videos](images/vframe-9n235-replica-3d-printed.jpg#watermark)
-
 "3D-printed synthetic data" (or just 3D-printed data) refers to the process of creating a 1:1 physical replica of an object using 3D-scanning, 3D-printing, and artistic replication. By recreating the digital surrogate object in the real world it escapes the limitations of 3D-rendered worlds and bridges the gap towards a more real reality. In other words, the 3D-printed replica can now be placed in a controlled staging environment to create scenes that would otherwise be too difficult to 3D model.
 
 Another significant advantage of using 3D-printed data for submunitions is safety. Obtaining submunitions always involves risk, and removing the explosives material to make it FFE involves further risk for explosives ordnance (EOD) personnel. The 3D-printed replicas are inert, hollow, plastic, and can even be made using environmentally responsible bioplastics like PLA.
@@ -244,7 +242,7 @@ This project is an example of new technology-based innovations that will continu
 
 - Adam Harvey: AI/ML systems, synthetic data, object detection, 3D printing
 - Josh Evans: photogrammetry, 3D reconstruction, 3d modeling, 3D printing
-- [Tech 4 Tracing](https://tech4tracing.org): EOD coordination
+- [Tech 4 Tracing](https://tech4tracing.org): Arms control advisory, EOD coordination
 - [Fenix Insight](https://fenix-insight.com): additional replica/surrogate fabrication and benchmark dataset collaboration
 
 ### License
